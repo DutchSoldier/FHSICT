@@ -1,0 +1,2 @@
+Z:\Documents\Computer Games\ButtonTutorial\ButtonTutorial\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+Y:\Documents\Computer Games\ButtonTutorial\ButtonTutorial\Content\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distance_array">
+        <item>50 Metres</item>
+        <item>100 Metres</item>
+        <item>250 Metres</item>
+        <item>500 Metres</item>
+        <item>1 Kilometre</item>
+        <item>2 Kilometres</item>
+        <item>5 Kilometres</item>
+        <item>10 Kilometres</item>
+    </string-array>
+</resources>

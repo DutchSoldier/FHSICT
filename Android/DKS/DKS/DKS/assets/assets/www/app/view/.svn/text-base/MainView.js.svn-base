@@ -1,0 +1,50 @@
+﻿Ext.define("WorkordersApp.view.MainView", {
+    extend: "Ext.Container",  
+    requires:["Ext.*"],
+    alias: "widget.mainlistview",    
+    config: {
+        layout: {
+            type: 'fit'
+        },        
+        items: [
+            {
+                xtype: "toolbar",
+                docked: "top",
+                title: GetLocaleString("Workorders"), 
+                defaults: {
+                    iconMask: true,
+                    ui: "plain"
+                },            
+                items: [{
+                    xtype: "spacer"
+                },{
+                    xtype: "button",
+                    iconCls: "settings",
+                    id: "btnConfig"                 
+                }]
+            },
+            {
+                xtype: "list",
+                store: "Workorders",
+                itemId: "workordersList",
+                loadingText: "Loading Notes...",
+                emptyText: "<div class=\"notes-list-empty-text\">No notes found.</div>",
+                onItemDisclosure: true,
+                grouped: true,
+                itemTpl: "<div class=\"list-item-title\">{wo_number} ---> {wo_weekNo}</div>" +
+                		"<div class=\"list-item-narrative\">{wo_debtorName}</div>"       
+            }
+        ],
+        listeners: [
+            {
+                delegate: "#btnConfig",
+                event: "tap",
+                fn: "onConfigButtonTap"
+            }
+        ]
+    },
+    onConfigButtonTap: function () {
+        //console.log("ConfigButtonTap");
+        this.fireEvent("viewConfigScreenCmd", this);
+    },    
+});

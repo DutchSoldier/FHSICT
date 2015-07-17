@@ -1,0 +1,31 @@
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Properties.Resources.resources
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Form1.resources
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Form1.resources
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Properties.Resources.resources
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\bin\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Form1.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12_Week2_Lab_ADayAtTheRaces.Properties.Resources.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi_Arts\Dropbox\Projects\SE12\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+C:\Users\Remi_Arts\Dropbox\Projects\SE12\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb
+C:\Users\Remi\Dropbox\Projects\SE12\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.exe
+C:\Users\Remi\Dropbox\Projects\SE12\SE12 Week2 Lab ADayAtTheRaces\SE12 Week2 Lab ADayAtTheRaces\obj\x86\Debug\SE12 Week2 Lab ADayAtTheRaces.pdb

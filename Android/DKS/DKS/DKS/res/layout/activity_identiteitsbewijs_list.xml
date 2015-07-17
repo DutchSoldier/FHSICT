@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IdentiteitsbewijsListActivity" 
+    android:orientation="vertical">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+       
+       <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/NocoreGroen"
+            android:gravity="center"
+            android:text="Identiteitsbewijzen"
+            android:textColor="@color/wit" 
+            android:paddingTop="20dp"
+        	android:paddingBottom="20dp"
+        	android:textStyle="bold"
+        	android:textSize="30sp"/>
+       
+       <Button
+            android:id="@+id/btn_afspraken"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Refresh"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            style="@style/button"
+            />
+       </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nummer"
+        android:layout_weight="1"
+        android:textStyle="bold"/>  
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naam"
+        android:layout_weight="1"
+        android:textStyle="bold"/>    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soort ID"
+        android:layout_weight="1"
+        android:textStyle="bold"/> 
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vervaldatum"
+        android:layout_weight="1"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/lv_identiteitsbewijzen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    
+</LinearLayout>

@@ -1,0 +1,11 @@
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\bin\Debug\SE12 Practicum2 Bankzaken.exe
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\bin\Debug\SE12 Practicum2 Bankzaken.pdb
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12_Practicum2_Bankzaken.Properties.Resources.resources
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12 Practicum2 Bankzaken.exe
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12 Practicum2 Bankzaken.pdb
+c:\users\wouter\documents\visual studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12_Practicum2_Bankzaken.BankrekeningForm.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12 Practicum2 Bankzaken.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\SE12 Practicum2 Bankzaken\SE12 Practicum2 Bankzaken\obj\x86\Debug\SE12 Practicum2 Bankzaken.pdb

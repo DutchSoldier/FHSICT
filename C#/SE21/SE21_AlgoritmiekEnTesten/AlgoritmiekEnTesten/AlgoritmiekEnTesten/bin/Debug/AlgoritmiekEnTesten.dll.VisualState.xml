@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1011]E:\Fontys\SE21\Projecten\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.dll</TopNode>
+  <SelectedNode>[0-1000]ContainerTest.ContainerTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1011]E:\Fontys\SE21\Projecten\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.dll" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1012]ContainerTest" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1000]ContainerTest.ContainerTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1008]ContainerTest.ContainerTest.TestCompressMetInts" />
+                <Node UniqueName="[0-1010]ContainerTest.ContainerTest.TestCompressMetPersoon" />
+                <Node UniqueName="[0-1009]ContainerTest.ContainerTest.TestCompressMetStrings" />
+                <Node UniqueName="[0-1002]ContainerTest.ContainerTest.TestCountMetInts" />
+                <Node UniqueName="[0-1004]ContainerTest.ContainerTest.TestCountMetPersoon" />
+                <Node UniqueName="[0-1003]ContainerTest.ContainerTest.TestCountMetStrings" />
+                <Node UniqueName="[0-1001]ContainerTest.ContainerTest.TestLegeContainer" />
+                <Node UniqueName="[0-1005]ContainerTest.ContainerTest.TestSortMetInts" />
+                <Node UniqueName="[0-1007]ContainerTest.ContainerTest.TestSortMetPersoon" />
+                <Node UniqueName="[0-1006]ContainerTest.ContainerTest.TestSortMetStrings" />
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

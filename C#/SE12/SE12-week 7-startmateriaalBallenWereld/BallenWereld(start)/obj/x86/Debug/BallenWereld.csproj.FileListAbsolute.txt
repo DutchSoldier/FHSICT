@@ -1,0 +1,20 @@
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\bin\Debug\BallenWereld.exe
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\bin\Debug\BallenWereld.pdb
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.BallenWereldForm.resources
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.Properties.Resources.resources
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.exe
+C:\Users\Remi\Downloads\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.pdb
+C:\Users\Remi_Arts\Documents\Laptop documenten\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.exe
+C:\Users\Remi_Arts\Documents\Laptop documenten\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.pdb
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.exe
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.pdb
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\bin\Debug\BallenWereld.exe
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\bin\Debug\BallenWereld.pdb
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.BallenWereldForm.resources
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\BallenWereld.Properties.Resources.resources
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Dropbox\Projects\SE12\SE12-week 7-startmateriaalBallenWereld\BallenWereld(start)\obj\x86\Debug\GenerateResource.write.1.tlog

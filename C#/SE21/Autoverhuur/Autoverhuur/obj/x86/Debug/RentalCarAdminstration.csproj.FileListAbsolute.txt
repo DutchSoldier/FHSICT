@@ -1,0 +1,10 @@
+c:\users\remi_arts\documents\visual studio 2010\Projects\Autoverhuur\Autoverhuur\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi_arts\documents\visual studio 2010\Projects\Autoverhuur\Autoverhuur\obj\x86\Debug\Autoverhuur.Properties.Resources.resources
+c:\users\remi_arts\documents\visual studio 2010\Projects\Autoverhuur\Autoverhuur\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi_arts\documents\visual studio 2010\Projects\Autoverhuur\Autoverhuur\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi_arts\documents\visual studio 2010\Projects\Autoverhuur\Autoverhuur\obj\x86\Debug\RentalCarAdminstration.Properties.Resources.resources
+C:\Users\Remi_Arts\Dropbox\Projects\SE21\Autoverhuur\Autoverhuur\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi_Arts\Dropbox\Projects\SE21\Autoverhuur\Autoverhuur\obj\x86\Debug\RentalCarAdminstration.Form1.resources
+C:\Users\Remi_Arts\Dropbox\Projects\SE21\Autoverhuur\Autoverhuur\obj\x86\Debug\RentalCarAdminstration.Properties.Resources.resources
+C:\Users\Remi_Arts\Dropbox\Projects\SE21\Autoverhuur\Autoverhuur\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi_Arts\Dropbox\Projects\SE21\Autoverhuur\Autoverhuur\obj\x86\Debug\GenerateResource.write.1.tlog

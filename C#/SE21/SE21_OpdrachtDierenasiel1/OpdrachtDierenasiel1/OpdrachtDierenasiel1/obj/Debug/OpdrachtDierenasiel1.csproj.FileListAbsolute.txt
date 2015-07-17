@@ -1,0 +1,10 @@
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\bin\Debug\OpdrachtDierenasiel1.XML
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\OpdrachtDierenasiel1.exe
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\OpdrachtDierenasiel1.pdb
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\bin\Debug\OpdrachtDierenasiel1.exe
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\bin\Debug\OpdrachtDierenasiel1.pdb
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\OpdrachtDierenasiel1.FormDierenasiel.resources
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\OpdrachtDierenasiel1.Properties.Resources.resources
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\ResGen.read.1.tlog
+C:\Users\Remi_Arts\Downloads\SE21_OpdrachtDierenasiel1\OpdrachtDierenasiel1\OpdrachtDierenasiel1\obj\Debug\ResGen.write.1.tlog

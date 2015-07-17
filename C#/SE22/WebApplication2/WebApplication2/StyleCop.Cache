@@ -1,0 +1,21 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="139855887">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 14:06:11</timestamp>
+      <milliseconds>908</milliseconds>
+    </settings>
+    <timestamp>05/10/2012 14:52:31</timestamp>
+    <milliseconds>239</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

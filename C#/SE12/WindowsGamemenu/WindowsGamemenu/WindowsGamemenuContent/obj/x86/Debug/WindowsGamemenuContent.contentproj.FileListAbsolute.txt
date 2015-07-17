@@ -1,0 +1,2 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsGamemenu\WindowsGamemenu\WindowsGamemenuContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi_Arts\Documents\Visual Studio 2010\Projects\WindowsGamemenu\WindowsGamemenu\WindowsGamemenuContent\obj\x86\Debug\ResolveAssemblyReference.cache

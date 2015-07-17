@@ -1,0 +1,9 @@
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\WindowsFormsBoek204.Form1.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\WindowsFormsBoek204.Properties.Resources.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\bin\Debug\WindowsFormsBoek204.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\bin\Debug\WindowsFormsBoek204.pdb
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\WindowsFormsBoek204.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsBoek204\WindowsFormsBoek204\obj\x86\Debug\WindowsFormsBoek204.pdb

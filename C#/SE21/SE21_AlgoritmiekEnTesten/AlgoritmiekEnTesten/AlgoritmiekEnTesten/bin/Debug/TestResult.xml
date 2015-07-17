@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Fontys\SE21\Projecten\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.dll" total="10" failures="0" not-run="0" date="2008-04-02" time="15:22:46">
+  <environment nunit-version="2.4.6.0" clr-version="2.0.50727.42" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="E:\Fontys\SE21\Projecten\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug" machine-name="LT59681" user="871059" user-domain="FONTYS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="E:\Fontys\SE21\Projecten\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.dll" success="True" time="0.063" asserts="0">
+    <results>
+      <test-suite name="ContainerTest" success="True" time="0.063" asserts="0">
+        <results>
+          <test-suite name="ContainerTest" success="True" time="0.063" asserts="0">
+            <results>
+              <test-case name="ContainerTest.ContainerTest.TestCompressMetInts" executed="True" success="True" time="0.031" asserts="9" />
+              <test-case name="ContainerTest.ContainerTest.TestCompressMetPersoon" executed="True" success="True" time="0.000" asserts="16" />
+              <test-case name="ContainerTest.ContainerTest.TestCompressMetStrings" executed="True" success="True" time="0.000" asserts="19" />
+              <test-case name="ContainerTest.ContainerTest.TestCountMetInts" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="ContainerTest.ContainerTest.TestCountMetPersoon" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="ContainerTest.ContainerTest.TestCountMetStrings" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="ContainerTest.ContainerTest.TestLegeContainer" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="ContainerTest.ContainerTest.TestSortMetInts" executed="True" success="True" time="0.000" asserts="7" />
+              <test-case name="ContainerTest.ContainerTest.TestSortMetPersoon" executed="True" success="True" time="0.000" asserts="8" />
+              <test-case name="ContainerTest.ContainerTest.TestSortMetStrings" executed="True" success="True" time="0.000" asserts="11" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekenmachine", "Rekenmachine\Rekenmachine.csproj", "{A31F8C49-000B-49EC-B191-7992B746D590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afbeelding zoeker", "afbeelding zoeker\Afbeelding zoeker.csproj", "{DB3F6B7F-4507-4F8A-A829-1DE430200EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-do lijst", "To do lijst\To-do lijst.csproj", "{1934BAB2-C2E8-4445-AFDA-CBE0CBBD6729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad Light", "Notepad Light\Notepad Light.csproj", "{5A25DD97-1C44-44F4-8CF8-63BF2B88423A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31F8C49-000B-49EC-B191-7992B746D590}.Debug|x86.ActiveCfg = Debug|x86
+		{A31F8C49-000B-49EC-B191-7992B746D590}.Debug|x86.Build.0 = Debug|x86
+		{A31F8C49-000B-49EC-B191-7992B746D590}.Release|x86.ActiveCfg = Release|x86
+		{A31F8C49-000B-49EC-B191-7992B746D590}.Release|x86.Build.0 = Release|x86
+		{DB3F6B7F-4507-4F8A-A829-1DE430200EDF}.Debug|x86.ActiveCfg = Debug|x86
+		{DB3F6B7F-4507-4F8A-A829-1DE430200EDF}.Debug|x86.Build.0 = Debug|x86
+		{DB3F6B7F-4507-4F8A-A829-1DE430200EDF}.Release|x86.ActiveCfg = Release|x86
+		{DB3F6B7F-4507-4F8A-A829-1DE430200EDF}.Release|x86.Build.0 = Release|x86
+		{1934BAB2-C2E8-4445-AFDA-CBE0CBBD6729}.Debug|x86.ActiveCfg = Debug|x86
+		{1934BAB2-C2E8-4445-AFDA-CBE0CBBD6729}.Debug|x86.Build.0 = Debug|x86
+		{1934BAB2-C2E8-4445-AFDA-CBE0CBBD6729}.Release|x86.ActiveCfg = Release|x86
+		{1934BAB2-C2E8-4445-AFDA-CBE0CBBD6729}.Release|x86.Build.0 = Release|x86
+		{5A25DD97-1C44-44F4-8CF8-63BF2B88423A}.Debug|x86.ActiveCfg = Debug|x86
+		{5A25DD97-1C44-44F4-8CF8-63BF2B88423A}.Debug|x86.Build.0 = Debug|x86
+		{5A25DD97-1C44-44F4-8CF8-63BF2B88423A}.Release|x86.ActiveCfg = Release|x86
+		{5A25DD97-1C44-44F4-8CF8-63BF2B88423A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

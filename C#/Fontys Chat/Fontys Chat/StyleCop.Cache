@@ -1,0 +1,180 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="1275379801">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="-1131327487">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="ChatType.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:35:11</timestamp>
+    <milliseconds>947</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Chat.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/08/2012 08:46:30</timestamp>
+    <milliseconds>713</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Constants.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:17:03</timestamp>
+    <milliseconds>875</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/08/2012 08:46:30</timestamp>
+    <milliseconds>697</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DatabaseMethods.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/08/2012 08:46:30</timestamp>
+    <milliseconds>650</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Mail.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/12/2012 23:38:00</timestamp>
+    <milliseconds>633</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 15:44:50</timestamp>
+    <milliseconds>511</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="User.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:35:25</timestamp>
+    <milliseconds>882</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Default.aspx.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/12/2012 23:27:14</timestamp>
+    <milliseconds>676</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="FriendsList.ascx.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/08/2012 08:41:42</timestamp>
+    <milliseconds>504</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Login.aspx.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 21:32:27</timestamp>
+    <milliseconds>284</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Master.Master.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/12/2012 16:35:53</timestamp>
+    <milliseconds>491</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Master.Master.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:35:13</timestamp>
+    <milliseconds>698</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Login.aspx.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:35:13</timestamp>
+    <milliseconds>620</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="WijzigGegevens.aspx.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 15:07:46</timestamp>
+    <milliseconds>664</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="WijzigGegevens.aspx.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/07/2012 23:35:12</timestamp>
+    <milliseconds>528</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to LabelSignUp must begin with the 'this.', 'base.', 'object.' or 'WijzigGegevens.' prefix to indicate the intended method call. </context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="FriendsList.ascx.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/13/2012 13:21:14</timestamp>
+    <milliseconds>545</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1659431424">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Default.aspx.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 15:44:50</timestamp>
+      <milliseconds>262</milliseconds>
+    </settings>
+    <timestamp>06/13/2012 13:23:12</timestamp>
+    <milliseconds>904</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

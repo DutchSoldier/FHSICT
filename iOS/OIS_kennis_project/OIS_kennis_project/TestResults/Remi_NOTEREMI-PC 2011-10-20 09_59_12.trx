@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5027d97-ea7c-477d-a38c-0e381aefc5af" name="Remi@NOTEREMI-PC 2011-10-20 09:59:12" runUser="NOTEREMI-PC\Remi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="065d3d36-ed0b-4d5f-9c9a-7aa1c329c84d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Remi_NOTEREMI-PC 2011-10-20 09_59_12" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-20T09:59:12.9200000+02:00" queuing="2011-10-20T09:59:14.4840000+02:00" start="2011-10-20T09:59:14.6310000+02:00" finish="2011-10-20T09:59:16.9180000+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="11" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="StringVraag1" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="0eefd169-c4cf-cd1c-3a32-c70ef49c2c3d">
+      <Execution id="cb336b89-bddf-4f2a-8724-5709979d426e" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.StringTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringVraag1" />
+    </UnitTest>
+    <UnitTest name="StringVraag3" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="eb2a9e2e-bfd7-2e77-2437-fc15a00b9cd6">
+      <Execution id="2188a7b6-c3e2-4727-8b3d-ca2581e8e4df" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.StringTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringVraag3" />
+    </UnitTest>
+    <UnitTest name="MethodVraag2" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="f8f85eca-38fd-7e03-3810-571d9eba9870">
+      <Execution id="b1642528-0a11-4bb4-863e-97819b973ed6" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.MethodTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MethodVraag2" />
+    </UnitTest>
+    <UnitTest name="HerhalingsVraag2" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="a98e4af6-7192-a122-ca5a-5272c84bb94a">
+      <Execution id="c737fcaf-d1f3-4077-928b-8ca69a7870bd" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.HerhalingsTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HerhalingsVraag2" />
+    </UnitTest>
+    <UnitTest name="StringVraag4" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="9830e2e3-d62a-f245-92fb-83745bfcecce">
+      <Execution id="e50bbaeb-52dc-485b-88d0-f567e4b3e60f" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.StringTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringVraag4" />
+    </UnitTest>
+    <UnitTest name="HerhalingsVraag4" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="a86c259f-2896-8160-b9a7-ca1ee96d5e91">
+      <Execution id="0cde9702-c03a-47d1-8942-baed25d6c1a0" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.HerhalingsTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HerhalingsVraag4" />
+    </UnitTest>
+    <UnitTest name="StringVraag5" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="3b73c140-a992-8705-7d15-4036d93971bb">
+      <Execution id="33ec19ca-968a-44bb-a7ac-9e5b7e880e8d" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.StringTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringVraag5" />
+    </UnitTest>
+    <UnitTest name="HerhalingsVraag5" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="a0adf1b9-2744-e62e-91f6-0fe701bca533">
+      <Execution id="e165a346-4ea5-442f-b15b-da9d4d5d9a8d" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.HerhalingsTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HerhalingsVraag5" />
+    </UnitTest>
+    <UnitTest name="MethodVraag1" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="9f0b0bc8-da60-e093-86e5-1fe86b64724f">
+      <Execution id="cca5f16c-aaf8-42a4-803a-6e1d53ee3628" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.MethodTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MethodVraag1" />
+    </UnitTest>
+    <UnitTest name="HerhalingsVraag1" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="22742481-8c34-2006-d74b-021bccf8bae3">
+      <Execution id="f60c14bd-0e36-4831-b5ac-fff85bd9da1e" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.HerhalingsTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HerhalingsVraag1" />
+    </UnitTest>
+    <UnitTest name="HerhalingsVraag3" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="fcdd1a83-8464-4441-b0ee-02d11a239914">
+      <Execution id="054f1bd7-f2a6-491c-ab12-cd8d42411c5a" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.HerhalingsTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HerhalingsVraag3" />
+    </UnitTest>
+    <UnitTest name="MethodVraag3" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="2cd0477a-6b94-360e-b0d3-9655079b7a7c">
+      <Execution id="49b2c839-b80f-4ccc-89a3-296916ac01d8" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.MethodTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MethodVraag3" />
+    </UnitTest>
+    <UnitTest name="StringVraag2" storage="c:\users\remi\downloads\ois_kennis_project\ois_kennis_project\ois_kennis_tester\bin\debug\ois_kennis_tester.dll" id="e0b6ef78-e700-565b-cbd6-e740f0cfbef4">
+      <Execution id="a2e0afc5-5e84-4082-9dd1-92dbba81e152" />
+      <TestMethod codeBase="C:/Users/Remi/Downloads/OIS_kennis_project/OIS_kennis_project/OIS_kennis_tester/bin/Debug/OIS_kennis_tester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OIS_kennis_tester.StringTest, OIS_kennis_tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringVraag2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0eefd169-c4cf-cd1c-3a32-c70ef49c2c3d" executionId="cb336b89-bddf-4f2a-8724-5709979d426e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0b6ef78-e700-565b-cbd6-e740f0cfbef4" executionId="a2e0afc5-5e84-4082-9dd1-92dbba81e152" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb2a9e2e-bfd7-2e77-2437-fc15a00b9cd6" executionId="2188a7b6-c3e2-4727-8b3d-ca2581e8e4df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9830e2e3-d62a-f245-92fb-83745bfcecce" executionId="e50bbaeb-52dc-485b-88d0-f567e4b3e60f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b73c140-a992-8705-7d15-4036d93971bb" executionId="33ec19ca-968a-44bb-a7ac-9e5b7e880e8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f0b0bc8-da60-e093-86e5-1fe86b64724f" executionId="cca5f16c-aaf8-42a4-803a-6e1d53ee3628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8f85eca-38fd-7e03-3810-571d9eba9870" executionId="b1642528-0a11-4bb4-863e-97819b973ed6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cd0477a-6b94-360e-b0d3-9655079b7a7c" executionId="49b2c839-b80f-4ccc-89a3-296916ac01d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22742481-8c34-2006-d74b-021bccf8bae3" executionId="f60c14bd-0e36-4831-b5ac-fff85bd9da1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a98e4af6-7192-a122-ca5a-5272c84bb94a" executionId="c737fcaf-d1f3-4077-928b-8ca69a7870bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcdd1a83-8464-4441-b0ee-02d11a239914" executionId="054f1bd7-f2a6-491c-ab12-cd8d42411c5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a86c259f-2896-8160-b9a7-ca1ee96d5e91" executionId="0cde9702-c03a-47d1-8942-baed25d6c1a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0adf1b9-2744-e62e-91f6-0fe701bca533" executionId="e165a346-4ea5-442f-b15b-da9d4d5d9a8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb336b89-bddf-4f2a-8724-5709979d426e" testId="0eefd169-c4cf-cd1c-3a32-c70ef49c2c3d" testName="StringVraag1" computerName="NOTEREMI-PC" duration="00:00:00.0221647" startTime="2011-10-20T09:59:14.9180000+02:00" endTime="2011-10-20T09:59:15.9420000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb336b89-bddf-4f2a-8724-5709979d426e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a2e0afc5-5e84-4082-9dd1-92dbba81e152" testId="e0b6ef78-e700-565b-cbd6-e740f0cfbef4" testName="StringVraag2" computerName="NOTEREMI-PC" duration="00:00:00.0005843" startTime="2011-10-20T09:59:15.9690000+02:00" endTime="2011-10-20T09:59:15.9880000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2e0afc5-5e84-4082-9dd1-92dbba81e152">
+    </UnitTestResult>
+    <UnitTestResult executionId="2188a7b6-c3e2-4727-8b3d-ca2581e8e4df" testId="eb2a9e2e-bfd7-2e77-2437-fc15a00b9cd6" testName="StringVraag3" computerName="NOTEREMI-PC" duration="00:00:00.1574932" startTime="2011-10-20T09:59:16.0020000+02:00" endTime="2011-10-20T09:59:16.1810000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2188a7b6-c3e2-4727-8b3d-ca2581e8e4df">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   bij OIS_kennis_tester.StringTest.DeWaardeVanResultaatIs(String getal) in C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\StringTest.cs:regel 20
+   bij OIS_kennis_tester.StringTest.StringVraag3() in C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\StringTest.cs:regel 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e50bbaeb-52dc-485b-88d0-f567e4b3e60f" testId="9830e2e3-d62a-f245-92fb-83745bfcecce" testName="StringVraag4" computerName="NOTEREMI-PC" duration="00:00:00.0004098" startTime="2011-10-20T09:59:16.2170000+02:00" endTime="2011-10-20T09:59:16.2640000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e50bbaeb-52dc-485b-88d0-f567e4b3e60f">
+    </UnitTestResult>
+    <UnitTestResult executionId="33ec19ca-968a-44bb-a7ac-9e5b7e880e8d" testId="3b73c140-a992-8705-7d15-4036d93971bb" testName="StringVraag5" computerName="NOTEREMI-PC" duration="00:00:00.0004953" startTime="2011-10-20T09:59:16.2990000+02:00" endTime="2011-10-20T09:59:16.3280000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33ec19ca-968a-44bb-a7ac-9e5b7e880e8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="cca5f16c-aaf8-42a4-803a-6e1d53ee3628" testId="9f0b0bc8-da60-e093-86e5-1fe86b64724f" testName="MethodVraag1" computerName="NOTEREMI-PC" duration="00:00:00.0010286" startTime="2011-10-20T09:59:16.3410000+02:00" endTime="2011-10-20T09:59:16.3590000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cca5f16c-aaf8-42a4-803a-6e1d53ee3628">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1642528-0a11-4bb4-863e-97819b973ed6" testId="f8f85eca-38fd-7e03-3810-571d9eba9870" testName="MethodVraag2" computerName="NOTEREMI-PC" duration="00:00:00.0005204" startTime="2011-10-20T09:59:16.3720000+02:00" endTime="2011-10-20T09:59:16.3890000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1642528-0a11-4bb4-863e-97819b973ed6">
+    </UnitTestResult>
+    <UnitTestResult executionId="49b2c839-b80f-4ccc-89a3-296916ac01d8" testId="2cd0477a-6b94-360e-b0d3-9655079b7a7c" testName="MethodVraag3" computerName="NOTEREMI-PC" duration="00:00:00.0005622" startTime="2011-10-20T09:59:16.5070000+02:00" endTime="2011-10-20T09:59:16.5320000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49b2c839-b80f-4ccc-89a3-296916ac01d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="f60c14bd-0e36-4831-b5ac-fff85bd9da1e" testId="22742481-8c34-2006-d74b-021bccf8bae3" testName="HerhalingsVraag1" computerName="NOTEREMI-PC" duration="00:00:00.0008363" startTime="2011-10-20T09:59:16.5540000+02:00" endTime="2011-10-20T09:59:16.5720000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f60c14bd-0e36-4831-b5ac-fff85bd9da1e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c737fcaf-d1f3-4077-928b-8ca69a7870bd" testId="a98e4af6-7192-a122-ca5a-5272c84bb94a" testName="HerhalingsVraag2" computerName="NOTEREMI-PC" duration="00:00:00.0006084" startTime="2011-10-20T09:59:16.5850000+02:00" endTime="2011-10-20T09:59:16.6020000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c737fcaf-d1f3-4077-928b-8ca69a7870bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="054f1bd7-f2a6-491c-ab12-cd8d42411c5a" testId="fcdd1a83-8464-4441-b0ee-02d11a239914" testName="HerhalingsVraag3" computerName="NOTEREMI-PC" duration="00:00:00.0003864" startTime="2011-10-20T09:59:16.6150000+02:00" endTime="2011-10-20T09:59:16.6330000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="054f1bd7-f2a6-491c-ab12-cd8d42411c5a">
+    </UnitTestResult>
+    <UnitTestResult executionId="0cde9702-c03a-47d1-8942-baed25d6c1a0" testId="a86c259f-2896-8160-b9a7-ca1ee96d5e91" testName="HerhalingsVraag4" computerName="NOTEREMI-PC" duration="00:00:00.0004146" startTime="2011-10-20T09:59:16.6460000+02:00" endTime="2011-10-20T09:59:16.6630000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cde9702-c03a-47d1-8942-baed25d6c1a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e165a346-4ea5-442f-b15b-da9d4d5d9a8d" testId="a0adf1b9-2744-e62e-91f6-0fe701bca533" testName="HerhalingsVraag5" computerName="NOTEREMI-PC" duration="00:00:00.0369758" startTime="2011-10-20T09:59:16.6750000+02:00" endTime="2011-10-20T09:59:16.7280000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e165a346-4ea5-442f-b15b-da9d4d5d9a8d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   bij OIS_kennis_tester.HerhalingsTest.DeWaardeVanResultaatIs(Int32 getal) in C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\HerhalingsTest.cs:regel 18
+   bij OIS_kennis_tester.HerhalingsTest.HerhalingsVraag5() in C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\HerhalingsTest.cs:regel 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

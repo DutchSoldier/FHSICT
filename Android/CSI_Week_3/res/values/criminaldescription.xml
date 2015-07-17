@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="criminaldescription">
+        <item >Bald</item>
+        <item >Lots of swag</item>
+        <item >Glasses</item>
+        <item >No pants</item>
+        <item >Asian</item>
+        </string-array>
+</resources>

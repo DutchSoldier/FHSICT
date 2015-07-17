@@ -1,0 +1,5 @@
+bin\Debug\ContainerAlgoritmiek.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ContainerAlgoritmiek.pdb
+bin\Debug\ContainerAlgoritmiek.dll
+obj\Debug\ContainerAlgoritmiek.dll

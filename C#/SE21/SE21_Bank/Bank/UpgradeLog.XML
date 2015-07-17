@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Bank">
+</Property><Property Name="Solution File" Value="D:\P3\SE21\opdrachten\Bank\Bank.sln">
+</Property><Property Name="User Options File" Value="D:\P3\SE21\opdrachten\Bank\Bank.suo">
+</Property><Property Name="Date" Value="Monday, March 22, 2010">
+</Property><Property Name="Time" Value="11:16 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Bank.sln" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\Bank.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Bank.suo" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\Bank.suo">
+</Event><Event ErrorLevel="0" Project="Bank" Source="Bank\Bank.csproj" Description="Project file successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\Bank\Bank.csproj">
+</Event><Event ErrorLevel="0" Project="Bank" Source="Bank\Rekening.cs" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\Bank\Rekening.cs">
+</Event><Event ErrorLevel="0" Project="Bank" Source="Bank\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\Bank\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Bank" Source="Bank\Bank.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Bank" Source="Bank\Bank.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BankTest" Source="BankTest\BankTest.csproj" Description="Project file successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\BankTest\BankTest.csproj">
+</Event><Event ErrorLevel="0" Project="BankTest" Source="BankTest\RekeningTest.cs" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\BankTest\RekeningTest.cs">
+</Event><Event ErrorLevel="0" Project="BankTest" Source="BankTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\P3\SE21\opdrachten\Bank\Backup\BankTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BankTest" Source="BankTest\BankTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BankTest" Source="BankTest\BankTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Bank.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Bank.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Bank" Source="Bank\Bank.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BankTest" Source="BankTest\BankTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

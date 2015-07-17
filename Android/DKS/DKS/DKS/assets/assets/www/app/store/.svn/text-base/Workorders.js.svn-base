@@ -1,0 +1,21 @@
+﻿Ext.define("WorkordersApp.store.Workorders", {
+    extend: "Ext.data.Store",
+
+    config: {
+        model: "WorkordersApp.model.Workorder",
+
+        sorters: [{ property: 'wo_weekNo', direction: 'DESC'}],
+//        grouper: {
+//            sortProperty: "wo_weekNo",
+//            direction: "DESC",
+//            groupFn: function (record) {               
+//                    if (configs["mainlistGroupField"] == 0)
+//                        return record.data.wo_weekNo;
+//                    else
+//                        return record.data.wo_debtorName;
+//                                    
+//                }s
+//            }
+        }
+    }
+);

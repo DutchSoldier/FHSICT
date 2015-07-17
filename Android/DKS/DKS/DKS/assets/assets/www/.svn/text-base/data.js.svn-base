@@ -1,0 +1,74 @@
+﻿var dbPlugin;
+
+//function used to initialize all the plugins used by phonegap
+//called from index.html, onDeviceReady event
+function InitializePlugins() {
+    
+    dbPlugin = new DataAccessPlugin(
+                        ["werkbonnen.sqlite3", true],
+                        
+                        function(res) {
+                            console.log("InitializePlugins - DataAccessPlugin successfully loaded!");
+                            LoadConfigs();
+                            //LoadTranslations();
+                        },
+                       
+                        function(e) {
+                            alert(e);
+                        }
+    );
+}
+
+//generic method for loading data into a store
+//not to be called directly!
+function LoadData(statement, store) {
+    
+    dbPlugin.loadData(
+               statement, 
+               function(res) {
+                    var jsnStr = JSON.stringify(res.rows);
+                    console.log("**** query result as json obj: " + jsnStr);                                 
+                    
+                                   
+                    var workorderStore = Ext.getStore(store);
+                    workorderStore.setData(res.rows); 
+                    
+                    //console.log(workorderStore.getCount());
+               },
+               
+               function(e) {
+                    console.log("Error while running statement!");
+                    alert("Error while running statement!"+e);
+               }
+    );
+}      
+
+function LoadWorkorders() {
+
+    var arr = ["select * from workorder"];
+    LoadData(arr, "Workorders");      
+} 
+
+function ShowToast(message) {
+    
+    dbPlugin.displayToast(
+            
+            message, 
+            
+            function(res) {
+            },
+            
+            function(e) {
+            }
+    )
+}
+
+function objToString (obj) {
+    var str = '';
+    for (var p in obj) {
+        if (obj.hasOwnProperty(p)) {
+            str += p + '::' + obj[p] + '\n';
+        }
+    }
+    return str;
+}

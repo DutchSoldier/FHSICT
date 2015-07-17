@@ -1,0 +1,3 @@
+Inheritancetype.single_table maakt nullable fields in dezelfde tabel voor subclass fields, dus alles zit in een tabel
+Inheritancetype.joined maakt een tabel voor de parent class, en aparte tabellen voor elke subclass
+Inheritancetype.table_per_class maakt voor elke subclass een eigen tabel.

@@ -1,0 +1,11 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\bin\Debug\WindowsFormsMilageCalculator.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\bin\Debug\WindowsFormsMilageCalculator.pdb
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.pdb
+C:\Users\Remi_Arts\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.exe
+C:\Users\Remi_Arts\Documents\Visual Studio 2010\Projects\WindowsFormsMilageCalculator\WindowsFormsMilageCalculator\obj\x86\Debug\WindowsFormsMilageCalculator.pdb

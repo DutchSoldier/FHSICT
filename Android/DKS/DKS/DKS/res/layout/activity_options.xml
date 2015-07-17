@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OptionsActivity" 
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:background="@color/NocoreGroen"
+        android:textColor="@color/wit"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groeperen op:" 
+        android:textStyle="bold"/>
+
+    <Spinner 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_groeperen"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorteren op:" 
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/sp_sorteren"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taal:" 
+        android:textStyle="bold"/>
+    
+    <Spinner 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_taal"/>
+
+    </LinearLayout>
+    <RelativeLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display planned hours:" 
+        android:layout_centerVertical="true"
+        android:textStyle="bold"/>
+    
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true" />
+
+    </RelativeLayout>
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account ID:" 
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"
+    	android:inputType="number"
+    	android:singleLine="true"
+    	android:id="@+id/et_accountID"/>
+
+    </LinearLayout>
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device ID:" 
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"
+    	android:inputType="number"
+    	android:singleLine="true"
+    	android:id="@+id/et_deviceID"/>
+
+    </LinearLayout>
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Host:" 
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"
+    	android:singleLine="true" 
+    	android:id="@+id/et_host"/>
+
+    </LinearLayout>
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Port:" 
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"
+    	android:inputType="number"
+    	android:singleLine="true" 
+    	android:id="@+id/et_port"/>
+
+    </LinearLayout>
+    
+    <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query:" 
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"
+    	android:singleLine="true" 
+    	android:id="@+id/et_query"/>    
+
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <Button 
+            android:id="@+id/btn_runQuery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run query"
+            android:layout_alignParentBottom="true"/>
+        <Button 
+            android:id="@+id/btn_loadData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load data"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/btn_runQuery"/>
+    </RelativeLayout>
+    
+</LinearLayout>

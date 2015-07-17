@@ -1,0 +1,6 @@
+package com.example.shout;
+
+public class Chat {
+	public String firstname;
+	public String chattext;
+}

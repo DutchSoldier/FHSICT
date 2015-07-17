@@ -1,0 +1,9 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\bin\Debug\WindowsFormsSloppyJoe.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\bin\Debug\WindowsFormsSloppyJoe.pdb
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\WindowsFormsSloppyJoe.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\WindowsFormsSloppyJoe.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\WindowsFormsSloppyJoe.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsSloppyJoe\WindowsFormsSloppyJoe\obj\x86\Debug\WindowsFormsSloppyJoe.pdb

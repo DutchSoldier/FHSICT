@@ -1,0 +1,396 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WerkbonDetailsActivity" 
+    android:orientation="vertical">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/NocoreGroen"
+            android:gravity="center"
+            android:text="Werkbon"
+            android:textColor="@color/wit" 
+            android:paddingTop="20dp"
+        	android:paddingBottom="20dp"
+        	android:textStyle="bold"
+        	android:textSize="30sp"
+        	android:id="@+id/tv_werkbon"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Debiteurnr:"
+		        android:textStyle="bold"/>
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Projectnr:"
+		        android:textStyle="bold"/>
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Telefoonnr:"
+		        android:textStyle="bold"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            
+            <TextView
+		        android:id="@+id/tv_debnr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            <TextView
+		        android:id="@+id/tv_projectnr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            <TextView
+		        android:id="@+id/tv_telefoonNr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Debiteurnaam:"
+		        android:textStyle="bold"/>
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Projectnaam:"
+		        android:textStyle="bold"/>
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Contactpers:"
+		        android:textStyle="bold"/>
+            </LinearLayout>
+            
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            
+            <TextView
+		        android:id="@+id/tv_debiteurnaam"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            <TextView
+		        android:id="@+id/tv_projectnaam"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            <TextView
+		        android:id="@+id/tv_contactpers"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>
+         
+    </LinearLayout>
+    
+    
+       <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Week:"
+	        android:layout_weight="1"
+	        android:textStyle="bold"/>
+        <TextView
+	        android:id="@+id/tv_week"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Start datum:"
+	        android:layout_weight="1"
+	        android:textStyle="bold"/>
+        <TextView
+	        android:id="@+id/tv_startdatum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Uren:"
+	        android:layout_weight="1"
+	        android:textStyle="bold"/>
+        <TextView
+	        android:id="@+id/tv_uren"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>  
+    </LinearLayout>
+    
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Straat:    "
+		        android:textStyle="bold"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3">
+            
+            <TextView
+		        android:id="@+id/tv_straat"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Huisnummer:  "
+		        android:textStyle="bold"/>
+            </LinearLayout>
+            
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            
+            <TextView
+		        android:id="@+id/tv_huisnummer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>    
+    </LinearLayout>
+    
+	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Postcode:"
+		        android:textStyle="bold"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            
+            <TextView
+		        android:id="@+id/tv_postcode"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Plaats:"
+		        android:textStyle="bold"/>
+            </LinearLayout>
+            
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            
+            <TextView
+		        android:id="@+id/tv_plaats"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+            </LinearLayout>
+         
+    </LinearLayout>
+            
+         <EditText 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:hint="Dit is een extra opmerking!"
+             android:id="@+id/et_extraOpmerking"/>
+         
+         <RadioGroup 
+             android:id="@+id/rg_toggle"
+             android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:orientation="horizontal">
+             
+             <ToggleButton 
+                 android:id="@+id/tb_nietuitvoerbaar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textOn="Niet uitvoerbaar"
+                 android:textOff="Niet uitvoerbaar"
+                 android:text="Niet uitvoerbaar"
+                 android:onClick="onToggle"
+                 android:layout_weight="1"
+                 style="@style/togglebutton"/>
+             <ToggleButton 
+                 android:id="@+id/tb_inuitvoering"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textOn="In uitvoering"
+                 android:textOff="In uitvoering"
+                 android:text="In uitvoering"
+                 android:onClick="onToggle"
+                 android:layout_weight="1"
+                 style="@style/togglebutton"/>
+             <ToggleButton 
+                 android:id="@+id/tb_gereed"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textOn="Gereed"
+                 android:textOff="Gereed"
+                 android:text="Gereed"
+                 android:onClick="onToggle"
+                 android:layout_weight="1"
+                 style="@style/togglebutton"/>
+         </RadioGroup>
+         
+
+         <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+             
+	        <TextView
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="Gereed datum:"
+	        	android:textStyle="bold"/> 
+	        	
+	        <EditText
+	            android:id="@+id/et_gereeddatum"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="date"
+	            android:hint="dd-mm-yyyy"
+	            android:singleLine="true"
+    	        android:imeOptions="actionDone"/>
+            
+      </LinearLayout>
+      
+         <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+             
+	        <TextView
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="Opmerkingen:"
+	        	android:textStyle="bold"/> 
+	        	
+	        <EditText 
+	            android:id="@+id/et_opmerkingen"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>            
+      </LinearLayout>
+      
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Handtekening"
+             android:textStyle="bold"/>
+         
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:orientation="vertical"
+             android:id="@+id/linearLayout"
+             android:layout_weight="1">
+             
+          <ImageView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/iv_handtekening"/> 
+         </LinearLayout>
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+         <Button 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Handtekening wissen"
+             android:layout_weight="1"
+             android:id="@+id/btn_handtekeningwissen"/>
+         <Button 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Get sign"
+             android:layout_weight="1"
+             android:id="@+id/getsign"/>
+         
+          </LinearLayout>
+</LinearLayout>

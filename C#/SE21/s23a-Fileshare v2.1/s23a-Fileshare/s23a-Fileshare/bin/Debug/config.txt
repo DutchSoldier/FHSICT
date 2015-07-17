@@ -1,0 +1,3 @@
+//Database:
+
+DBConString = "User Id=252753;Password=2179985;Data Source=//webdb.hi.fontys.nl:1521/cicdb.informatica.local;"

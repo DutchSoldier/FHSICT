@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   		<color name="black">#000000</color>
+    	<color name="lightgreen">#7FFF00</color>
+    	<color name="green">#006400</color>
+    	<color name="white">#FFFFFF</color>
+    	<color name="kots">#8fd06a</color>
+    	<color name="grijs">#5F475F</color>
+    	<color name="witgrijs">#303D45</color>
+    	<color name="wit">#FAFBFB</color>
+    	<color name="groengrijs">#B0C7BD</color>
+    	<color name="donkergrijs">#39474F</color>
+    	<color name="groen">#43AE73</color>
+    	<color name="blauw">#0000FF</color>
+    	<color name="lichtblauw">#A9D0F5</color>
+    	<color name="donkerblauw">#0B0B3B</color>
+    	<color name="NocoreGroen">#31B404</color>
+    	<color name="StandaartGrijs">#BDBDBD</color>
+</resources>

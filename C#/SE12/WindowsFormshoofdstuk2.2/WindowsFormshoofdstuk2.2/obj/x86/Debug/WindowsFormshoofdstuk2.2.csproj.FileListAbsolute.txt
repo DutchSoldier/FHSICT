@@ -1,0 +1,9 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\WindowsFormshoofdstuk2._2.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\WindowsFormshoofdstuk2._2.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\bin\Debug\WindowsFormshoofdstuk2.2.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\bin\Debug\WindowsFormshoofdstuk2.2.pdb
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\WindowsFormshoofdstuk2.2.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2.2\WindowsFormshoofdstuk2.2\obj\x86\Debug\WindowsFormshoofdstuk2.2.pdb

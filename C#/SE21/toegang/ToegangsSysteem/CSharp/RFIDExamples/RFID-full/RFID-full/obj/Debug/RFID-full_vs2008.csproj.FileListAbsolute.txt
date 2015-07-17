@@ -1,0 +1,11 @@
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID_full.ErrorEventBox.resources
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID_full.Form1.resources
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID_full.Properties.Resources.resources
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID_full.TextInputBox.resources
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\ResGen.read.1.tlog
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\ResGen.write.1.tlog
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\bin\Debug\RFID-full.exe
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\bin\Debug\RFID-full.pdb
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID-full.exe
+C:\Users\Lollerpriest\Documents\Visual Studio 2010\Projects\ToegangsSysteem\CSharp\RFIDExamples\RFID-full\RFID-full\obj\Debug\RFID-full.pdb

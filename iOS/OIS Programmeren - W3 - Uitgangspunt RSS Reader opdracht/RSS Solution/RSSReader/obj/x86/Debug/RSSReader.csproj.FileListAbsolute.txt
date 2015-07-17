@@ -1,0 +1,9 @@
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\bin\Debug\RSSReader.exe
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\bin\Debug\RSSReader.pdb
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\RSSReader.Form1.resources
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\RSSReader.Properties.Resources.resources
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\RSSReader.exe
+C:\Users\Remi\Downloads\OIS Programmeren - W3 - Uitgangspunt RSS Reader opdracht\RSS Solution\RSSReader\obj\x86\Debug\RSSReader.pdb

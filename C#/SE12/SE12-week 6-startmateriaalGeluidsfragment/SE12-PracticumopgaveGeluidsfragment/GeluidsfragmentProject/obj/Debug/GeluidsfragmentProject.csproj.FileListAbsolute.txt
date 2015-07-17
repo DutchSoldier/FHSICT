@@ -1,0 +1,11 @@
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\Hilversum.GeluidsfragmentForm.resources
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\Hilversum.Properties.Resources.resources
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\bin\Debug\GeluidsfragmentProject.exe
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\bin\Debug\GeluidsfragmentProject.pdb
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
+C:\Users\Remi\Downloads\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb
+C:\Users\Remi_Arts\Documents\Laptop documenten\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.exe
+C:\Users\Remi_Arts\Documents\Laptop documenten\SE12-week 6-startmateriaalGeluidsfragment\SE12-PracticumopgaveGeluidsfragment\GeluidsfragmentProject\obj\Debug\GeluidsfragmentProject.pdb

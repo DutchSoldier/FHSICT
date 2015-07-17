@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebApplication1.Master" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 7]>
+    <style>
+        <style>
+            .content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+            ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+        #clearsession
+        {
+            width: 113px;
+        }
+        </style>
+    <![endif]-->
+    <script type="text/javascript" src="scripts/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Add the page method call as an onclick handler for the button.
+            $("#logout").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "Login.aspx/ClearSession",
+                    data: "{}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (msg) {
+                        $(location).attr('href', 'Login.aspx');
+                    }
+                });
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+<div class="container">
+<div class="header"><h1>Fontys Chat</h1>
+    <!-- end .header --></div>
+
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="Default.aspx" id="home">Home</a></li>
+        <li><a href="WijzigGegevens.aspx" id="profile">Profile</a></li>
+           <li><a id="logout">Logout</a>
+        </li>
+    </ul>
+    <asp:ContentPlaceHolder ID="sidebar_1" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <asp:ContentPlaceHolder ID="main_content" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- end .sidebar2 --></div>
+  <div class="footer">
+    <center><p>Copyright Fontys Chat</p></center>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+    </form>
+</body>
+</html>

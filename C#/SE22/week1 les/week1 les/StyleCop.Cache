@@ -1,0 +1,33 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 15:47:29</timestamp>
+      <milliseconds>301</milliseconds>
+    </settings>
+    <timestamp>04/25/2012 15:45:36</timestamp>
+    <milliseconds>35</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="demo1.aspx.designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 15:47:29</timestamp>
+      <milliseconds>301</milliseconds>
+    </settings>
+    <timestamp>04/25/2012 15:43:24</timestamp>
+    <milliseconds>229</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="231267963">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="demo1.aspx.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 15:47:29</timestamp>
+      <milliseconds>301</milliseconds>
+    </settings>
+    <timestamp>04/25/2012 15:48:37</timestamp>
+    <milliseconds>910</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

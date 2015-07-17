@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Dkskwaliteit</title>
+       <!-- <script src="http://192.168.5.18:8080/target/target-script-min.js#anonymous"></script>  --> 
+   
+      <link href="core/sencha/resources/css/android.css" rel="stylesheet" type="text/css" />
+      <link href="css-debug/default-theme.css" rel="stylesheet" type="text/css" />  
+	  <link href="resources/css/app.css" rel="stylesheet" type="text/css" />
+	  <link href="resources/css/icons.css" rel="stylesheet" type="text/css" />
+	  <style type="text/css">
+            .PressedRedCls {color: #f00;}
+            .PressedBlueCls {color: #00f;}
+            .PressedGreenCls {color: #0ff;}
+            </style>
+	  <script type="text/javascript" charset="utf-8" src="core/cordova-2.6.0.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="core/sencha/sencha-touch-debug.js"></script>
+	   
+	  <script type="text/javascript" charset="utf-8" src="plugins/DataAccess_Plugin.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="plugins/CanvasPlugin.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="data.js"></script>  
+	  <script type="text/javascript" charset="utf-8" src="configs.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="localization.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="app.js"></script>
+	  <script type="text/javascript" charset="utf-8">
+
+        
+        var onDeviceReady = function() {
+            <!--document.getElementById("devready").innerHTML = "OnDeviceReady fired."; -->
+            InitializePlugins();
+        };
+
+        function init() {
+            document.addEventListener("deviceready", onDeviceReady, true);
+        }   
+</script>  
+
+  </head>
+  <body onload="init();" id="stage" class="theme">
+  </body>
+</html>

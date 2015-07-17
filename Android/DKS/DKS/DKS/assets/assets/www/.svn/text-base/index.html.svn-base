@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Minimal AppLaud App</title>
+
+	  <link href="core/sencha/resources/css/android.css" rel="stylesheet" type="text/css" />
+	  <link href="resources/css/app.css" rel="stylesheet" type="text/css" />
+	  
+	  <script type="text/javascript" charset="utf-8" src="core/cordova-1.7.0.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="core/sencha/sencha-touch-debug.js"></script>
+	   
+	  <script type="text/javascript" charset="utf-8" src="plugins/DataAccess_Plugin.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="data.js"></script>  
+	  <script type="text/javascript" charset="utf-8" src="configs.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="localization.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="app.js"></script>
+	  
+	  <script type="text/javascript" charset="utf-8">
+      
+        var onDeviceReady = function() {
+            <!--document.getElementById("devready").innerHTML = "OnDeviceReady fired."; -->
+            InitializePlugins();
+            //console.log("index.html inainte de loadconfig");
+
+        };
+
+        function init() {
+            document.addEventListener("deviceready", onDeviceReady, true);
+        }   
+</script>  
+
+  </head>
+  <body onload="init();" id="stage" class="theme">
+  </body>
+</html>

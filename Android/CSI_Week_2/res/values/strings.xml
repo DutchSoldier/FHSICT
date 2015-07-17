@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSI app voor bazen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">description</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="gender">Gender:</string>
+    <string name="bounty">Bounty:</string>
+    <string name="henk_name">Henk</string>
+    <string name="henk_age">12</string>
+    <string name="henk_gender">Cyborg</string>
+    <string name="henk_bounty">1 Euro</string>
+    <string name="details">Details</string>
+    <string name="suspect_details">Maar lastig is het wel. Want al zo lang als het platform bestaat, is er discussie over de verantwoordelijkheid. Terwijl de jurisprudentie helder is: misschien valt er te twisten over de vraag of “domme lul” nog beledigend is, maar niet over de vraag of die kwalificatie door de Volkskrant moet worden verwijderd indien hij dat is.
+Het auteursrecht heeft hiermee niet zo heel veel te maken. Ik denk niet dat een auteur zijn auteursrecht verliest als hij iemand beledigt (maar dat lijkt me een aardige vraag voor juristen). Ik geloof wel dat de Volkskrant zich in bochten wringt door te stellen dat bloggers eigenaar zijn van hun eigen teksten, en tegelijkertijd in de gebruiksvoorwaarden clausules opneemt die daar strijdig mee zijn (bijvoorbeeld het recht om posts over te nemen).
+Onderaan de streep bepaalt de wet wat wel en niet mag. Dat is beter geregeld dan Thom Meens denkt. De gebruiksvoorwaarden (een vrijwaring bijvoorbeeld) helpen goed om de rolverdeling tussen provider en blogger duidelijk te maken. Als daarin geregeld is dat de provider een blogger mag bannen die zich niet aan de regels houdt (omdat hij commerciele belangen dient bijvoorbeeld, hetgeen verboden wordt bij volkskrantblogs), kan de provider hem bannen. Een beroep op de vrijheid van meningsuiting lijkt me bij de rechter in zo’n situatie kansloos.</string>
+    <string name="report">Report</string>
+    <string name="gps_position">GPS Position</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="call">Call 113</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="edit_name">name</string>
+</resources>

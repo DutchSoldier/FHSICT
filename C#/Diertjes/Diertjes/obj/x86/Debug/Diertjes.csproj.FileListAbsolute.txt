@@ -1,0 +1,11 @@
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.Properties.Resources.resources
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\bin\Debug\Diertjes.exe
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\bin\Debug\Diertjes.pdb
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.exe
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.pdb
+c:\users\simon\documents\visual studio 2010\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.Form1.resources
+C:\Users\Remi\Dropbox\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.exe
+C:\Users\Remi\Dropbox\Projects\Diertjes\Diertjes\obj\x86\Debug\Diertjes.pdb

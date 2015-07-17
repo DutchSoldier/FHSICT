@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    style="@style/AppTheme">
+    <!--android:background="?android:attr/activatedBackgroundIndicator"-->
+        
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_afspraak"
+        android:hint="Naam afspraak"
+        android:layout_weight="1"/>  
+    	
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_wie"
+        android:hint="Met wie?"
+        android:singleLine="true"
+    	android:imeOptions="actionDone"
+    	android:paddingRight="20dp"/>
+
+    <EditText
+        android:id="@+id/et_datumAfspraak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="dd-mm-yyyy"
+        android:inputType="date"
+        android:singleLine="true"
+    	android:imeOptions="actionDone"
+    	android:paddingLeft="20dp"/>
+
+</LinearLayout>

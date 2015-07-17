@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crimedescription">
+        <item >Breaking and entering a house in order to steal items</item>
+        <item >Killing another person</item>
+        <item >Illegal or reckless pedestrian crossing of a roadway</item>
+        <item >Creating Methamphetamine</item>
+        <item >Exploiting weaknesses in a computer system or computer network</item>
+        </string-array>
+</resources>

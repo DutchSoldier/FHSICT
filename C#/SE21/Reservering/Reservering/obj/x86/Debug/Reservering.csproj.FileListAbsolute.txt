@@ -1,0 +1,10 @@
+C:\Users\Luc\Desktop\Reservering\Reservering\bin\Debug\Reservering.exe
+C:\Users\Luc\Desktop\Reservering\Reservering\bin\Debug\Reservering.pdb
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\Reservering.Form1.resources
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\Reservering.Properties.Resources.resources
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\Reservering.exe
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\Reservering.pdb
+C:\Users\Luc\Desktop\Reservering\Reservering\obj\x86\Debug\Reservering.UsercontrolPerson.resources

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ButtonTutorial">
+</Property><Property Name="Solution File" Value="C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\ButtonTutorial.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\ButtonTutorial.suo">
+</Property><Property Name="Date" Value="woensdag 7 december 2011">
+</Property><Property Name="Time" Value="15:22">
+</Property><Property Name="Solution" Value="ButtonTutorial">
+</Property><Property Name="Solution File" Value="C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\ButtonTutorial.sln">
+</Property><Property Name="Date" Value="woensdag 7 december 2011">
+</Property><Property Name="Time" Value="15:23:10">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ButtonTutorial.sln" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ButtonTutorial.suo" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial.suo">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Upgraded XNA Game Studio project to XNA Framework 4.0.">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Project file successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\ButtonTutorial.csproj">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj.user" Description="Project user file successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\ButtonTutorial.csproj.user">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\Program.cs" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\Program.cs">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\Game1.cs" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\Game1.cs">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\ButtonTutorial_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\Game.ico" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\Game.ico">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\GameThumbnail.png" Description="File successfully backed up as C:\Users\Remi\Downloads\ButtonTutorial\ButtonTutorial\Backup\ButtonTutorial\GameThumbnail.png">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ButtonTutorial.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ButtonTutorial.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ButtonTutorial" Source="ButtonTutorial\ButtonTutorial.csproj" Description="Upgraded XNA Framework references to XNA Framework 4.0.">
+</Event><Event ErrorLevel="0" Project="Content.contentproj" Source="easy.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content.contentproj" Source="hard.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content.contentproj" Source="medium.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content.contentproj" Source="Content.contentproj" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="ButtonTutorialContent" Source="ButtonTutorial\Content\ButtonTutorialContent.contentproj" Description="Upgraded XNA Game Studio nested content projects to XNA Framework 4.0 and promoted to sibling project.">
+</Event></UpgradeLog>

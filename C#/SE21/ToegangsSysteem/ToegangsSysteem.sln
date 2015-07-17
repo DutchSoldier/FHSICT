@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToegangsSysteem", "ToegangsSysteem\ToegangsSysteem.csproj", "{6ABACB9A-C2A9-4338-B10B-6AA0A5B9701E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ABACB9A-C2A9-4338-B10B-6AA0A5B9701E}.Debug|x86.ActiveCfg = Debug|x86
+		{6ABACB9A-C2A9-4338-B10B-6AA0A5B9701E}.Debug|x86.Build.0 = Debug|x86
+		{6ABACB9A-C2A9-4338-B10B-6AA0A5B9701E}.Release|x86.ActiveCfg = Release|x86
+		{6ABACB9A-C2A9-4338-B10B-6AA0A5B9701E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

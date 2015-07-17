@@ -1,0 +1,14 @@
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Content\basketball.xnb
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Content\hand.xnb
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Content\crash.xnb
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Content\swish.xnb
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Pong.exe
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\Pong.pdb
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\NXTMessaging.dll
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\AForge.Robotics.Lego.dll
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\NXTMessaging.xml
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\bin\x86\Debug\AForge.Robotics.Lego.xml
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\obj\x86\Debug\Pong.exe
+C:\Users\Remi\Downloads\PongNXT\PongNXT\Pong\obj\x86\Debug\Pong.pdb

@@ -1,0 +1,58 @@
+package com.example.shout;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.view.Menu;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+public class ChangeProfileActivity extends Activity implements View.OnClickListener{
+
+	Button cancel, save;
+	ImageButton photo;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		setContentView(R.layout.activity_change_profile);
+		cancel = (Button)findViewById(R.id.btn_cancel);
+		save = (Button)findViewById(R.id.btn_save);
+		save.setOnClickListener(this);
+		cancel.setOnClickListener(this);
+		photo = (ImageButton)findViewById(R.id.photo_button);
+		photo.setOnClickListener(this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.load, menu);
+		return true;
+	}
+
+	@Override
+	public void onClick(View v) {
+		if(v == cancel) {
+			Intent intent = new Intent(this, PublicChatActivity.class);
+			startActivity(intent);
+		}
+		else if (v == save) {
+			
+			//Profiel wijzigen in database
+			Intent intent = new Intent(this, PublicChatActivity.class);
+			startActivity(intent);
+		}
+		else if (v == photo) {
+			Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+		    startActivityForResult(takePictureIntent, 1);
+		}
+		
+	}
+
+}

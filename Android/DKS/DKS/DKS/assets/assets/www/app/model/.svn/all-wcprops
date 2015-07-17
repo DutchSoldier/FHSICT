@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/app/model
+END
+Address.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/app/model/Address.js
+END
+ContactPers.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/app/model/ContactPers.js
+END
+Workorder.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/app/model/Workorder.js
+END
+Task.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/app/model/Task.js
+END

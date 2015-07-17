@@ -1,0 +1,7 @@
+D:\SE\SE21\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SE\SE21\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SE\SE21\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SE\SE21\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\SE\SE21\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Remi_Arts\Downloads\voorbeeldweek6 (1)\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Remi_Arts\Downloads\voorbeeldweek6 (1)\voorbeeldweek6\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,5 @@
+bin\Debug\Algoritmiek1.exe
+bin\Debug\Algoritmiek1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Algoritmiek1.exe
+obj\Debug\Algoritmiek1.pdb

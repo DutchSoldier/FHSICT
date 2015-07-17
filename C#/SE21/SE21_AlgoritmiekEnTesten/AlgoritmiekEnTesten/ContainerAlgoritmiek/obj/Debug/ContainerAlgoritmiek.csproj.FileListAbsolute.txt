@@ -1,0 +1,5 @@
+D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\bin\Debug\ContainerAlgoritmiek.dll
+D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\bin\Debug\ContainerAlgoritmiek.pdb
+D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\obj\Debug\ResolveAssemblyReference.cache
+D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\obj\Debug\ContainerAlgoritmiek.dll
+D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\obj\Debug\ContainerAlgoritmiek.pdb

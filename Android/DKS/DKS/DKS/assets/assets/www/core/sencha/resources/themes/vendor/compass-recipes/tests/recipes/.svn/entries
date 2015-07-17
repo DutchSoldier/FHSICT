@@ -1,0 +1,95 @@
+10
+
+dir
+3
+https://svn.code.sf.net/p/workorderapp/code/trunk/v0.3/assets/www/core/sencha/resources/themes/vendor/compass-recipes/tests/recipes
+https://svn.code.sf.net/p/workorderapp/code
+
+
+
+2012-06-01T08:30:49.525092Z
+3
+nocore-rnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ac3f2bb6-fb0d-4324-b005-9626d9497fe1
+
+background
+dir
+
+shape
+dir
+
+form
+dir
+
+shadow
+dir
+
+shared
+dir
+
+media-queries
+dir
+
+index.html
+file
+
+
+
+
+2012-05-07T10:53:38.821961Z
+68994a61963a8a4dd3322405e9a7a816
+2012-06-01T08:30:49.525092Z
+3
+nocore-rnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+effect
+dir
+
+layout
+dir
+
+ui
+dir
+
+color
+dir
+
+google-webfont
+dir
+

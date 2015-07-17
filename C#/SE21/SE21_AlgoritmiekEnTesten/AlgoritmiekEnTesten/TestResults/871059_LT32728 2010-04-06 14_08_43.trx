@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="85357076-d574-420b-a62d-2b578b230565" name="871059@LT32728 2010-04-06 14:08:43" runUser="FONTYS\871059" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c399d367-4116-4751-a767-e9542bf93836">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\se21\AlgoritmiekEnTesten\TestResults\871059_LT32728 2010-04-06 14_08_43">
+      <DeploymentItem filename="D:\se21\AlgoritmiekEnTesten\ContainerAlgoritmiek\bin\Debug\ContainerAlgoritmiek.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="1" error="0" failed="9" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-04-06T14:08:43.6411800+02:00" queuing="2010-04-06T14:08:43.9380721+02:00" start="2010-04-06T14:08:43.9536980+02:00" finish="2010-04-06T14:08:44.1880865+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCountMetInts" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="5e3e589e-4de6-2715-03e7-b0ab239bd399">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7d1c7162-6d2d-4009-812f-7176c0a08a6b" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCountMetInts" />
+    </UnitTest>
+    <UnitTest name="TestCountMetPersoon" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="e173305f-1a55-1a15-5a97-9bbb067a371d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a87f1b31-8625-4eac-bc66-4e14adb5ac8c" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCountMetPersoon" />
+    </UnitTest>
+    <UnitTest name="TestLegeContainer" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="5f0b2b2a-8562-cd91-0291-ebfdd2535ec2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bda4dc87-bbd6-4829-b552-fc4f549c396e" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestLegeContainer" />
+    </UnitTest>
+    <UnitTest name="TestCountMetStrings" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="146a82d0-3ff6-42b6-7899-34e7514ee61d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="aa07bc31-d984-4d33-a121-8deab1ab64ca" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCountMetStrings" />
+    </UnitTest>
+    <UnitTest name="TestCompressMetPersoon" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="847a63c4-450e-6145-139e-93cd497b728a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="de56d82c-1a72-4282-a103-6f3ce4d8ab22" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCompressMetPersoon" />
+    </UnitTest>
+    <UnitTest name="TestSortMetInts" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="fe42f85a-818d-d738-a124-1b32a327d258">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3ac77399-02cc-46d3-935e-3ca3f9abb8f7" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestSortMetInts" />
+    </UnitTest>
+    <UnitTest name="TestSortMetPersoon" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="73d27ee8-cad6-4914-68da-8d3ba4c68ec5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c2904b32-df0f-4a1a-8d26-ae3a93c694af" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestSortMetPersoon" />
+    </UnitTest>
+    <UnitTest name="TestCompressMetInts" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="f5286a2d-90a8-4504-700e-aa8c7af69102">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="92cd8ee1-be0b-497e-9c57-bd5d4ee1100b" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCompressMetInts" />
+    </UnitTest>
+    <UnitTest name="TestCompressMetStrings" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="0a80e700-bb5d-64e1-a2bf-c8430c673b74">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="76da0c72-c936-4231-a6cb-c966452483ba" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestCompressMetStrings" />
+    </UnitTest>
+    <UnitTest name="TestSortMetStrings" storage="d:\se21\algoritmiekentesten\testcontainerproject\bin\debug\testcontainerproject.dll" id="6e7fbba5-5af1-5169-c342-1753ed4ceebc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0cd1de34-fda2-49ce-beaf-bf13a3b8c48c" />
+      <TestMethod codeBase="D:\se21\AlgoritmiekEnTesten\TestContainerProject\bin\Debug\TestContainerProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestContainerProject.UnitTestContainer, TestContainerProject" name="TestSortMetStrings" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a80e700-bb5d-64e1-a2bf-c8430c673b74" executionId="76da0c72-c936-4231-a6cb-c966452483ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="146a82d0-3ff6-42b6-7899-34e7514ee61d" executionId="aa07bc31-d984-4d33-a121-8deab1ab64ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e3e589e-4de6-2715-03e7-b0ab239bd399" executionId="7d1c7162-6d2d-4009-812f-7176c0a08a6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f0b2b2a-8562-cd91-0291-ebfdd2535ec2" executionId="bda4dc87-bbd6-4829-b552-fc4f549c396e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e7fbba5-5af1-5169-c342-1753ed4ceebc" executionId="0cd1de34-fda2-49ce-beaf-bf13a3b8c48c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73d27ee8-cad6-4914-68da-8d3ba4c68ec5" executionId="c2904b32-df0f-4a1a-8d26-ae3a93c694af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="847a63c4-450e-6145-139e-93cd497b728a" executionId="de56d82c-1a72-4282-a103-6f3ce4d8ab22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e173305f-1a55-1a15-5a97-9bbb067a371d" executionId="a87f1b31-8625-4eac-bc66-4e14adb5ac8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5286a2d-90a8-4504-700e-aa8c7af69102" executionId="92cd8ee1-be0b-497e-9c57-bd5d4ee1100b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe42f85a-818d-d738-a124-1b32a327d258" executionId="3ac77399-02cc-46d3-935e-3ca3f9abb8f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76da0c72-c936-4231-a6cb-c966452483ba" testId="0a80e700-bb5d-64e1-a2bf-c8430c673b74" testName="TestCompressMetStrings" computerName="LT32728" duration="00:00:00.0814488" startTime="2010-04-06T14:08:43.9536980+02:00" endTime="2010-04-06T14:08:44.1255829+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCompressMetStrings() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 224
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa07bc31-d984-4d33-a121-8deab1ab64ca" testId="146a82d0-3ff6-42b6-7899-34e7514ee61d" testName="TestCountMetStrings" computerName="LT32728" duration="00:00:00.0012280" startTime="2010-04-06T14:08:44.1255829+02:00" endTime="2010-04-06T14:08:44.1255829+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCountMetStrings() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d1c7162-6d2d-4009-812f-7176c0a08a6b" testId="5e3e589e-4de6-2715-03e7-b0ab239bd399" testName="TestCountMetInts" computerName="LT32728" duration="00:00:00.0012236" startTime="2010-04-06T14:08:44.1255829+02:00" endTime="2010-04-06T14:08:44.1412088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCountMetInts() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bda4dc87-bbd6-4829-b552-fc4f549c396e" testId="5f0b2b2a-8562-cd91-0291-ebfdd2535ec2" testName="TestLegeContainer" computerName="LT32728" duration="00:00:00.0005271" startTime="2010-04-06T14:08:44.1412088+02:00" endTime="2010-04-06T14:08:44.1412088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0cd1de34-fda2-49ce-beaf-bf13a3b8c48c" testId="6e7fbba5-5af1-5169-c342-1753ed4ceebc" testName="TestSortMetStrings" computerName="LT32728" duration="00:00:00.0024807" startTime="2010-04-06T14:08:44.1412088+02:00" endTime="2010-04-06T14:08:44.1412088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;a&gt;. Actual:&lt;c&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestSortMetStrings() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2904b32-df0f-4a1a-8d26-ae3a93c694af" testId="73d27ee8-cad6-4914-68da-8d3ba4c68ec5" testName="TestSortMetPersoon" computerName="LT32728" duration="00:00:00.0020147" startTime="2010-04-06T14:08:44.1412088+02:00" endTime="2010-04-06T14:08:44.1568347+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Algoritmiek.Persoon&gt;. Actual:&lt;Algoritmiek.Persoon&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestSortMetPersoon() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de56d82c-1a72-4282-a103-6f3ce4d8ab22" testId="847a63c4-450e-6145-139e-93cd497b728a" testName="TestCompressMetPersoon" computerName="LT32728" duration="00:00:00.0018203" startTime="2010-04-06T14:08:44.1568347+02:00" endTime="2010-04-06T14:08:44.1568347+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCompressMetPersoon() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 274
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a87f1b31-8625-4eac-bc66-4e14adb5ac8c" testId="e173305f-1a55-1a15-5a97-9bbb067a371d" testName="TestCountMetPersoon" computerName="LT32728" duration="00:00:00.0011160" startTime="2010-04-06T14:08:44.1568347+02:00" endTime="2010-04-06T14:08:44.1568347+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCountMetPersoon() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="92cd8ee1-be0b-497e-9c57-bd5d4ee1100b" testId="f5286a2d-90a8-4504-700e-aa8c7af69102" testName="TestCompressMetInts" computerName="LT32728" duration="00:00:00.0016024" startTime="2010-04-06T14:08:44.1724606+02:00" endTime="2010-04-06T14:08:44.1724606+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestCompressMetInts() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ac77399-02cc-46d3-935e-3ca3f9abb8f7" testId="fe42f85a-818d-d738-a124-1b32a327d258" testName="TestSortMetInts" computerName="LT32728" duration="00:00:00.0012621" startTime="2010-04-06T14:08:44.1724606+02:00" endTime="2010-04-06T14:08:44.1724606+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;7&gt;. </Message>
+          <StackTrace>   at TestContainerProject.UnitTestContainer.TestSortMetInts() in D:\se21\AlgoritmiekEnTesten\TestContainerProject\UnitTestContainer.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

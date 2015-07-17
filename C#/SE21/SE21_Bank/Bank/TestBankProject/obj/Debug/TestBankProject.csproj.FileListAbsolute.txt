@@ -1,0 +1,14 @@
+D:\P3\SE21\opdrachten\Bank\TestBankProject\bin\Debug\TestBankProject.dll
+D:\P3\SE21\opdrachten\Bank\TestBankProject\bin\Debug\TestBankProject.pdb
+D:\P3\SE21\opdrachten\Bank\TestBankProject\bin\Debug\Bank.dll
+D:\P3\SE21\opdrachten\Bank\TestBankProject\bin\Debug\Bank.pdb
+D:\P3\SE21\opdrachten\Bank\TestBankProject\obj\Debug\ResolveAssemblyReference.cache
+D:\P3\SE21\opdrachten\Bank\TestBankProject\obj\Debug\TestBankProject.dll
+D:\P3\SE21\opdrachten\Bank\TestBankProject\obj\Debug\TestBankProject.pdb
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\bin\Debug\TestBankProject.dll
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\bin\Debug\TestBankProject.pdb
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\bin\Debug\Bank.dll
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\bin\Debug\Bank.pdb
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\obj\Debug\ResolveAssemblyReference.cache
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\obj\Debug\TestBankProject.dll
+D:\P3\SE21\opdrachten\BankClean\TestBankProject\obj\Debug\TestBankProject.pdb

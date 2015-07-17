@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".KwaliteitsverslagAfsprakenActivity" 
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/NocoreGroen"
+            android:gravity="center"
+            android:text="Afspraken"
+            android:textColor="@color/wit" 
+            android:paddingTop="20dp"
+        	android:paddingBottom="20dp"
+        	android:textStyle="bold"
+        	android:textSize="30sp"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status document:"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
+        
+        <RadioGroup 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rg_statusdocument"
+            android:layout_weight="1">
+            
+            <ToggleButton 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Concept"
+                android:textOff="Concept"
+                android:text="Concept"
+                android:id="@+id/tb_concept"
+                android:layout_weight="1"
+                android:onClick="onToggle"
+                style="@style/togglebutton"/>
+            <ToggleButton 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Gereed"
+                android:textOff="Gereed"
+                android:text="Gereed"
+                android:id="@+id/tb_gereed"
+                android:layout_weight="1"
+                android:onClick="onToggle"
+                style="@style/togglebutton"/>
+        </RadioGroup>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gereed datum:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_gereeddatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="date" 
+            android:hint="dd-mm-yyyy"
+            android:singleLine="true"
+    	    android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opmerkingen:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_opmerkingen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handtekening Visschedijk"
+                android:textStyle="bold"/>           
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/ll_visschedijk"
+                android:layout_marginRight="5dp">
+                
+                <ImageView 
+                 	android:layout_width="wrap_content"
+                 	android:layout_height="wrap_content"
+                 	android:id="@+id/iv_Vhandtekening"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wissen"
+                android:id="@+id/btn_handtekeningVisschedijkWissen"/>
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verkrijg"
+                android:id="@+id/btn_handtekeningVisschedijkVerkrijgen"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handtekening Opdrachtgever"
+                android:textStyle="bold"/>
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/ll_opdrachtgever"
+                android:layout_marginLeft="5dp">
+            
+            	<ImageView 
+                 	android:layout_width="wrap_content"
+                 	android:layout_height="wrap_content"
+                 	android:id="@+id/iv_Ohandtekening"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wissen"
+                android:id="@+id/btn_handtekeningOpdrachtgeverWissen"/>
+                <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verkrijg"
+                android:id="@+id/btn_handtekeningOpdrachtgeverVerkrijgen"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+﻿Ext.application({
+    name: "WorkordersApp",
+
+    models: ["Workorder"],
+    stores: ["Workorders"],
+    controllers: ["Options", "Workorders"],   
+    views: ["OptionsView", "MainView"],
+
+
+    launch: function () {
+        
+        var mainView = {
+            xtype: "mainlistview"
+        };
+        var optionsView = {
+            xtype: "optionsview"
+        };
+
+        Ext.Viewport.add([mainView, optionsView]);        
+    }
+});
+

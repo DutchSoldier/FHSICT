@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Enemies\ZombieMelee\0.png</Source>
+      <Name>Enemies\ZombieMelee\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\0.xnb</Output>
+      <Time>2012-01-30T13:38:33.9725223+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\1.png</Source>
+      <Name>Enemies\ZombieMelee\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\1.xnb</Output>
+      <Time>2012-01-30T13:38:34.1225309+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\10.png</Source>
+      <Name>Enemies\ZombieMelee\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\10.xnb</Output>
+      <Time>2012-01-30T13:38:35.5486124+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\11.png</Source>
+      <Name>Enemies\ZombieMelee\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\11.xnb</Output>
+      <Time>2012-01-30T13:38:35.6996211+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\12.png</Source>
+      <Name>Enemies\ZombieMelee\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\12.xnb</Output>
+      <Time>2012-01-30T13:38:35.8456294+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\13.png</Source>
+      <Name>Enemies\ZombieMelee\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\13.xnb</Output>
+      <Time>2012-01-30T13:38:36.0036385+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\14.png</Source>
+      <Name>Enemies\ZombieMelee\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\14.xnb</Output>
+      <Time>2012-01-30T13:38:36.2176507+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\15.png</Source>
+      <Name>Enemies\ZombieMelee\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\15.xnb</Output>
+      <Time>2012-01-30T13:38:36.4556643+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\16.png</Source>
+      <Name>Enemies\ZombieMelee\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\16.xnb</Output>
+      <Time>2012-01-30T13:38:36.6186736+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\17.png</Source>
+      <Name>Enemies\ZombieMelee\17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\17.xnb</Output>
+      <Time>2012-01-30T13:38:36.7596817+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\18.png</Source>
+      <Name>Enemies\ZombieMelee\18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\18.xnb</Output>
+      <Time>2012-01-30T13:38:36.9146906+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\19.png</Source>
+      <Name>Enemies\ZombieMelee\19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\19.xnb</Output>
+      <Time>2012-01-30T13:38:37.0797+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\2.png</Source>
+      <Name>Enemies\ZombieMelee\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\2.xnb</Output>
+      <Time>2012-01-30T13:38:34.3155419+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\20.png</Source>
+      <Name>Enemies\ZombieMelee\20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\20.xnb</Output>
+      <Time>2012-01-30T13:38:37.2257083+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\21.png</Source>
+      <Name>Enemies\ZombieMelee\21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\21.xnb</Output>
+      <Time>2012-01-30T13:38:37.3787171+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\22.png</Source>
+      <Name>Enemies\ZombieMelee\22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\22.xnb</Output>
+      <Time>2012-01-30T13:38:37.5397263+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\23.png</Source>
+      <Name>Enemies\ZombieMelee\23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\23.xnb</Output>
+      <Time>2012-01-30T13:38:37.7197366+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\3.png</Source>
+      <Name>Enemies\ZombieMelee\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\3.xnb</Output>
+      <Time>2012-01-30T13:38:34.4535498+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\4.png</Source>
+      <Name>Enemies\ZombieMelee\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\4.xnb</Output>
+      <Time>2012-01-30T13:38:34.6125589+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\5.png</Source>
+      <Name>Enemies\ZombieMelee\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\5.xnb</Output>
+      <Time>2012-01-30T13:38:34.8195707+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\6.png</Source>
+      <Name>Enemies\ZombieMelee\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\6.xnb</Output>
+      <Time>2012-01-30T13:38:34.9525783+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\7.png</Source>
+      <Name>Enemies\ZombieMelee\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\7.xnb</Output>
+      <Time>2012-01-30T13:38:35.1015869+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\8.png</Source>
+      <Name>Enemies\ZombieMelee\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\8.xnb</Output>
+      <Time>2012-01-30T13:38:35.2455951+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\9.png</Source>
+      <Name>Enemies\ZombieMelee\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\9.xnb</Output>
+      <Time>2012-01-30T13:38:35.3926035+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\0.png</Source>
+      <Name>Levels\Level0\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag0\0.xnb</Output>
+      <Time>2012-01-31T14:10:38.5816011+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\1.png</Source>
+      <Name>Levels\Level0\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag0\1.xnb</Output>
+      <Time>2012-01-31T14:10:39.4816526+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\2.png</Source>
+      <Name>Levels\Level0\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag0\2.xnb</Output>
+      <Time>2012-01-31T14:10:40.5427133+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\0.png</Source>
+      <Name>Levels\Level0\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag1\0.xnb</Output>
+      <Time>2012-01-31T14:14:18.1281584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\1.png</Source>
+      <Name>Levels\Level0\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag1\1.xnb</Output>
+      <Time>2012-01-31T14:14:22.5744128+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\2.png</Source>
+      <Name>Levels\Level0\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag1\2.xnb</Output>
+      <Time>2012-01-31T14:14:23.4804646+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\0.png</Source>
+      <Name>Levels\Level0\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag2\0.xnb</Output>
+      <Time>2012-01-31T14:03:26.0568621+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\1.png</Source>
+      <Name>Levels\Level0\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag2\1.xnb</Output>
+      <Time>2012-01-31T14:03:27.4149398+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\2.png</Source>
+      <Name>Levels\Level0\Laag2\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag2\2.xnb</Output>
+      <Time>2012-01-31T14:03:28.6820123+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\3.png</Source>
+      <Name>Levels\Level0\Laag2\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag2\3.xnb</Output>
+      <Time>2012-01-31T14:03:30.094093+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\4.png</Source>
+      <Name>Levels\Level0\Laag2\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level0\Laag2\4.xnb</Output>
+      <Time>2012-01-31T14:03:31.4831725+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\0.png</Source>
+      <Name>Player\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Player\0.xnb</Output>
+      <Time>2011-12-22T19:14:55.5109013+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\1.png</Source>
+      <Name>Player\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Player\1.xnb</Output>
+      <Time>2011-12-22T19:14:55.8249193+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\2.png</Source>
+      <Name>Player\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Player\2.xnb</Output>
+      <Time>2011-12-22T19:14:55.9809282+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Interface\Achtergrond.png</Source>
+      <Name>Interface\Achtergrond</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Interface\Achtergrond.xnb</Output>
+      <Time>2012-01-05T11:18:30.2712898+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Interface\Healthbar.png</Source>
+      <Name>Interface\Healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Interface\Healthbar.xnb</Output>
+      <Time>2012-01-05T11:30:31.6705515+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Interface\Lijnen.png</Source>
+      <Name>Interface\Lijnen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Interface\Lijnen.xnb</Output>
+      <Time>2012-01-05T11:18:30.2792903+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\0.png</Source>
+      <Name>Levels\Level1\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag0\0.xnb</Output>
+      <Time>2012-01-24T13:45:23.289609+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\1.png</Source>
+      <Name>Levels\Level1\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag0\1.xnb</Output>
+      <Time>2012-01-17T23:58:23.9884955+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\2.png</Source>
+      <Name>Levels\Level1\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag0\2.xnb</Output>
+      <Time>2012-01-17T23:58:24.6745348+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\0.png</Source>
+      <Name>Levels\Level1\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag1\0.xnb</Output>
+      <Time>2012-01-17T23:54:48.2041534+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\1.png</Source>
+      <Name>Levels\Level1\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag1\1.xnb</Output>
+      <Time>2012-01-17T23:54:49.683238+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\2.png</Source>
+      <Name>Levels\Level1\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag1\2.xnb</Output>
+      <Time>2012-01-17T23:54:50.9893127+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\3.png</Source>
+      <Name>Levels\Level1\Laag1\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag1\3.xnb</Output>
+      <Time>2012-01-17T23:54:51.781358+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\0.png</Source>
+      <Name>Levels\Level1\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag2\0.xnb</Output>
+      <Time>2012-01-18T10:41:29.051645+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\1.png</Source>
+      <Name>Levels\Level1\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag2\1.xnb</Output>
+      <Time>2012-01-18T10:41:32.425838+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\2.png</Source>
+      <Name>Levels\Level1\Laag2\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag2\2.xnb</Output>
+      <Time>2012-01-18T10:41:33.6249066+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\3.png</Source>
+      <Name>Levels\Level1\Laag2\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag2\3.xnb</Output>
+      <Time>2012-01-18T10:41:34.8319756+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\4.png</Source>
+      <Name>Levels\Level1\Laag2\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Levels\Level1\Laag2\4.xnb</Output>
+      <Time>2012-01-18T10:41:35.6570228+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Achtergrond\0.png</Source>
+      <Name>Menu\Achtergrond\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Achtergrond\0.xnb</Output>
+      <Time>2012-01-31T17:11:53.079067+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\12.png</Source>
+      <Name>Menu\Knoppen\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\12.xnb</Output>
+      <Time>2012-01-24T14:23:36.2047562+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\13.png</Source>
+      <Name>Menu\Knoppen\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\13.xnb</Output>
+      <Time>2012-01-24T14:23:36.2147568+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\0.png</Source>
+      <Name>Menu\Knoppen\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\0.xnb</Output>
+      <Time>2012-01-24T14:23:36.1997559+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\1.png</Source>
+      <Name>Menu\Knoppen\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\1.xnb</Output>
+      <Time>2012-01-24T14:23:36.2097565+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\10.png</Source>
+      <Name>Menu\Knoppen\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\10.xnb</Output>
+      <Time>2012-01-24T14:23:36.2347579+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\11.png</Source>
+      <Name>Menu\Knoppen\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\11.xnb</Output>
+      <Time>2012-01-24T14:23:36.2717601+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\2.png</Source>
+      <Name>Menu\Knoppen\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\2.xnb</Output>
+      <Time>2012-01-24T14:23:36.2197571+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\3.png</Source>
+      <Name>Menu\Knoppen\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\3.xnb</Output>
+      <Time>2012-01-24T14:23:36.2297577+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\4.png</Source>
+      <Name>Menu\Knoppen\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\4.xnb</Output>
+      <Time>2012-01-24T14:23:36.1897554+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\5.png</Source>
+      <Name>Menu\Knoppen\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\5.xnb</Output>
+      <Time>2012-01-24T14:23:36.1947557+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\6.png</Source>
+      <Name>Menu\Knoppen\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\6.xnb</Output>
+      <Time>2012-01-24T14:23:36.2247574+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\7.png</Source>
+      <Name>Menu\Knoppen\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\7.xnb</Output>
+      <Time>2012-01-24T14:23:36.2397582+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\8.png</Source>
+      <Name>Menu\Knoppen\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\8.xnb</Output>
+      <Time>2012-01-24T14:23:36.2447585+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\9.png</Source>
+      <Name>Menu\Knoppen\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\9.xnb</Output>
+      <Time>2012-01-24T14:23:36.2767603+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\24.png</Source>
+      <Name>Enemies\ZombieMelee\24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\24.xnb</Output>
+      <Time>2012-01-30T13:54:43.9310007+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\25.png</Source>
+      <Name>Enemies\ZombieMelee\25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\25.xnb</Output>
+      <Time>2012-01-30T13:54:44.1330123+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\26.png</Source>
+      <Name>Enemies\ZombieMelee\26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\26.xnb</Output>
+      <Time>2012-01-30T13:54:44.2830209+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\27.png</Source>
+      <Name>Enemies\ZombieMelee\27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\27.xnb</Output>
+      <Time>2012-01-30T13:54:44.4330294+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\28.png</Source>
+      <Name>Enemies\ZombieMelee\28</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\28.xnb</Output>
+      <Time>2012-01-30T13:54:44.5780377+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\29.png</Source>
+      <Name>Enemies\ZombieMelee\29</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\29.xnb</Output>
+      <Time>2012-01-30T13:54:44.7290464+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\30.png</Source>
+      <Name>Enemies\ZombieMelee\30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\30.xnb</Output>
+      <Time>2012-01-30T13:54:44.8770548+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\31.png</Source>
+      <Name>Enemies\ZombieMelee\31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\31.xnb</Output>
+      <Time>2012-01-30T13:54:45.0500647+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\32.png</Source>
+      <Name>Enemies\ZombieMelee\32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\32.xnb</Output>
+      <Time>2012-01-30T13:54:45.2050736+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\33.png</Source>
+      <Name>Enemies\ZombieMelee\33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\33.xnb</Output>
+      <Time>2012-01-30T13:54:45.3550822+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\34.png</Source>
+      <Name>Enemies\ZombieMelee\34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\34.xnb</Output>
+      <Time>2012-01-30T13:54:45.510091+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\35.png</Source>
+      <Name>Enemies\ZombieMelee\35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\35.xnb</Output>
+      <Time>2012-01-30T13:54:45.6801008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\ZombieMelee\36.png</Source>
+      <Name>Enemies\ZombieMelee\36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Enemies\ZombieMelee\36.xnb</Output>
+      <Time>2012-01-30T13:54:45.8351096+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Objecten\0.png</Source>
+      <Name>Objecten\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Objecten\0.xnb</Output>
+      <Time>2012-01-31T12:03:11.7378627+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\14.png</Source>
+      <Name>Menu\Knoppen\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Menu\Knoppen\14.xnb</Output>
+      <Time>2012-01-30T12:52:51+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2011-12-28T10:22:19.5321841+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Luc\Desktop\Top Secret\TopSecret2\TopSecret2\TopSecret2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-09-22T13:26:51.291533+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

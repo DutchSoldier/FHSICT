@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Arial.spritefont</Source>
+      <Name>Fonts\Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Fonts\Arial.xnb</Output>
+      <Time>2012-01-24T14:23:31.7995043+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\0.png</Source>
+      <Name>Levels\Level1\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.5555475+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\1.png</Source>
+      <Name>Levels\Level1\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.563548+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\2.png</Source>
+      <Name>Levels\Level1\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.5715484+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\0.png</Source>
+      <Name>Levels\Level1\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.6185511+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\1.png</Source>
+      <Name>Levels\Level1\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.6275516+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\2.png</Source>
+      <Name>Levels\Level1\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.6355521+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\1.png</Source>
+      <Name>Levels\Level1\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag2\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.6605535+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\0.png</Source>
+      <Name>Levels\Level2\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.7275573+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\1.png</Source>
+      <Name>Levels\Level2\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.7355578+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\2.png</Source>
+      <Name>Levels\Level2\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.7445583+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\0.png</Source>
+      <Name>Levels\Level1\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag2\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.651553+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\LucSheet.png</Source>
+      <Name>Animations\Player\LucSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Animations\Player\LucSheet.xnb</Output>
+      <Time>2012-01-24T14:23:29.9804002+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\0.png</Source>
+      <Name>Levels\Level0\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.1155223+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\LevelScore\0.png</Source>
+      <Name>Menu\LevelScore\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\LevelScore\0.xnb</Output>
+      <Time>2012-01-24T14:23:30.3994242+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\1.png</Source>
+      <Name>Levels\Level0\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.1235228+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\2.png</Source>
+      <Name>Levels\Level0\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.1315233+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\0.png</Source>
+      <Name>Levels\Level0\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.3045332+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\1.png</Source>
+      <Name>Levels\Level0\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.3135337+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\2.png</Source>
+      <Name>Levels\Level0\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.3225342+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\0.png</Source>
+      <Name>Levels\Level0\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\0.xnb</Output>
+      <Time>2012-01-24T14:23:32.4505415+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\1.png</Source>
+      <Name>Levels\Level0\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\1.xnb</Output>
+      <Time>2012-01-24T14:23:32.458542+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\2.png</Source>
+      <Name>Levels\Level0\Laag2\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\2.xnb</Output>
+      <Time>2012-01-24T14:23:32.4665424+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\3.png</Source>
+      <Name>Levels\Level0\Laag2\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\3.xnb</Output>
+      <Time>2012-01-24T14:23:32.4755429+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\4.png</Source>
+      <Name>Levels\Level0\Laag2\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\4.xnb</Output>
+      <Time>2012-01-24T14:23:32.4845434+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\5.png</Source>
+      <Name>Levels\Level0\Laag2\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\5.xnb</Output>
+      <Time>2012-01-24T14:23:32.493544+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Achtergrond\0.png</Source>
+      <Name>Menu\Achtergrond\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Achtergrond\0.xnb</Output>
+      <Time>2012-01-24T14:23:34.7556733+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Enemy\EnemyMelee.png</Source>
+      <Name>Animations\Enemy\EnemyMelee</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Animations\Enemy\EnemyMelee.xnb</Output>
+      <Time>2012-01-24T14:23:30.0224026+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Back_Blank.png</Source>
+      <Name>Menu\Knoppen\Back_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Back_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.2247574+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Back_Selected.png</Source>
+      <Name>Menu\Knoppen\Back_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Back_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2397582+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\High_Blank.png</Source>
+      <Name>Menu\Knoppen\High_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\High_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.2197571+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\High_Selected.png</Source>
+      <Name>Menu\Knoppen\High_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\High_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2297577+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Kies_Blank.png</Source>
+      <Name>Menu\Knoppen\Kies_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Kies_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.1897554+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Kies_Selected.png</Source>
+      <Name>Menu\Knoppen\Kies_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Kies_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.1947557+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Start_Blank.png</Source>
+      <Name>Menu\Knoppen\Start_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Start_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.1997559+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Start_Selected.png</Source>
+      <Name>Menu\Knoppen\Start_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Start_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2097565+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Easy_Blank.png</Source>
+      <Name>Menu\Knoppen\Easy_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Easy_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.2447585+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Easy_Selected.png</Source>
+      <Name>Menu\Knoppen\Easy_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Easy_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2767603+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Hard_Blank.png</Source>
+      <Name>Menu\Knoppen\Hard_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Hard_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.2047562+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Hard_Selected.png</Source>
+      <Name>Menu\Knoppen\Hard_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Hard_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2147568+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Medium_Blank.png</Source>
+      <Name>Menu\Knoppen\Medium_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Medium_Blank.xnb</Output>
+      <Time>2012-01-24T14:23:36.2347579+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Medium_Selected.png</Source>
+      <Name>Menu\Knoppen\Medium_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Medium_Selected.xnb</Output>
+      <Time>2012-01-24T14:23:36.2717601+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top SecretContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top SecretContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Luc\Desktop\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-09-22T13:26:51.291533+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

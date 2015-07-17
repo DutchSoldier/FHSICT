@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MaakVraagActivity" 
+    android:orientation="vertical">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/blauw"
+            android:gravity="center"
+            android:text="Vraag"
+            android:textColor="@color/wit" 
+            android:paddingTop="5dp"
+        	android:paddingBottom="5dp"
+        	android:textStyle="bold"
+        	android:textSize="20sp"/>
+
+    </RelativeLayout>
+    
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Vraag:"/>
+	
+	<EditText 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/et_vraag"
+	    android:singleLine="true"
+	    android:imeOptions="actionDone"/>
+	
+	<CheckBox 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:id="@+id/cb_groepAntwoorden"
+	    android:text="Meer antwoorden mogelijk?"/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Antwoorden:"/>
+	    
+	    <Space 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+	    
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/btn_addAntwoord"
+	        android:text="+"/>
+	    
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/btn_deleteAntwoord"
+	        android:text="-"/>
+	    
+	</LinearLayout>
+    
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_antwoorden"
+        android:layout_weight="1">
+        
+    </ListView>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_saveVraag"
+        android:text="Save vraag"/>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+./adb pull /data/data/nl.nocore.dks/databases/dks.sqlite3

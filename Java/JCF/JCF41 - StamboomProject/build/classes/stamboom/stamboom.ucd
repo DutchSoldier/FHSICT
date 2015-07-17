@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" id="stamboom" metadata="uml2-1.0" initialized="true" scrolledX="188" scrolledY="1585" tag="1000" key="3230303631303036205374616D626F6F6D50726F6A6563742F383731303539">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="Admin" location="280,90" size="718,241" id="stamboom/Admin" runTimeClassModel="addRelatie(Lstamboom.Persoon;Lstamboom.Persoon;),getPersoon(I),addPersoon(Lstamboom.Geslacht;[Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;),getRelatie(I),Admin(Ljava.lang.String;),Admin(),getPersonen(Ljava.lang.String;),save(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="695,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Admin" id="stamboom/Admin#Admin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Admin" id="stamboom/Admin#Admin(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPersoon" id="stamboom/Admin#addPersoon(Lstamboom.Geslacht;[Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addRelatie" id="stamboom/Admin#addRelatie(Lstamboom.Persoon;Lstamboom.Persoon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPersonen" id="stamboom/Admin#getPersonen(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPersoon" id="stamboom/Admin#getPersoon(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRelatie" id="stamboom/Admin#getRelatie(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="stamboom/Admin#save(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showAttributeProperty="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1" name="Relatie" location="2728,1598" size="274,475" id="stamboom/Relatie" runTimeClassModel="nextRelNr,setScheiding(Ljava.util.GregorianCalendar;),Relatie(Lstamboom.Persoon;Lstamboom.Persoon;),getKinderen(),relNr,getNextRelNr(),getPartner2(),kinderen,toString(),krijgtKind(Lstamboom.Persoon;),getNr(),start,setStart(Ljava.util.GregorianCalendar;),setNextRelNr(I),scheiding,getStart(),partner2,getScheiding(),partner1,serialVersionUID,getPartner1(),stamboomgegevens(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="kinderen" id="stamboom/Persoon@kinderen+stamboom/Relatie@|stamboom/Persoon#kinderen"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nextRelNr" id="stamboom/Relatie#nextRelNr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="partner1" id="stamboom/Relatie#partner1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="partner2" id="stamboom/Relatie#partner2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="relNr" id="stamboom/Relatie#relNr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scheiding" id="stamboom/Relatie#scheiding"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="stamboom/Relatie#serialVersionUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="start" id="stamboom/Relatie#start"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="251,252">
+      <children xsi:type="editmodel:MethodEditModel" name="Relatie" id="stamboom/Relatie#Relatie(Lstamboom.Persoon;Lstamboom.Persoon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKinderen" id="stamboom/Relatie#getKinderen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNextRelNr" id="stamboom/Relatie#getNextRelNr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNr" id="stamboom/Relatie#getNr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPartner1" id="stamboom/Relatie#getPartner1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPartner2" id="stamboom/Relatie#getPartner2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScheiding" id="stamboom/Relatie#getScheiding()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStart" id="stamboom/Relatie#getStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="krijgtKind" id="stamboom/Relatie#krijgtKind(Lstamboom.Persoon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNextRelNr" id="stamboom/Relatie#setNextRelNr(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setScheiding" id="stamboom/Relatie#setScheiding(Ljava.util.GregorianCalendar;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStart" id="stamboom/Relatie#setStart(Ljava.util.GregorianCalendar;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stamboomgegevens" id="stamboom/Relatie#stamboomgegevens(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="stamboom/Relatie#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Persoon" location="359,440" size="593,547" id="stamboom/Persoon" runTimeClassModel="getInitialen(),standaardGegevens(),getStamboom(),getTussenvoegsel(),setOuders(Lstamboom.Relatie;),voornamen,getGeslacht(),relaties,toString(),getRelaties(),getAchternaam(),persNr,getGebdat(),isBetrokkenBij(Lstamboom.Relatie;),getNextPersNr(),ouders,getVoornamen(),setNextPersNr(I),tussenvoegsel,getOuders(),nextPersNr,getNr(),achternaam,getNaam(),gebdat,Persoon([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="achternaam" id="stamboom/Persoon#achternaam"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gebdat" id="stamboom/Persoon#gebdat"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nextPersNr" id="stamboom/Persoon#nextPersNr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ouders" id="stamboom/Persoon#ouders"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="persNr" id="stamboom/Persoon#persNr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="relaties" id="stamboom/Relatie@relaties+stamboom/Persoon@|stamboom/Relatie#relaties"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tussenvoegsel" id="stamboom/Persoon#tussenvoegsel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="voornamen" id="stamboom/Persoon#voornamen"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="570,324">
+      <children xsi:type="editmodel:MethodEditModel" name="Persoon" id="stamboom/Persoon#Persoon([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAchternaam" id="stamboom/Persoon#getAchternaam()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGebdat" id="stamboom/Persoon#getGebdat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeslacht" id="stamboom/Persoon#getGeslacht()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInitialen" id="stamboom/Persoon#getInitialen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNaam" id="stamboom/Persoon#getNaam()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNextPersNr" id="stamboom/Persoon#getNextPersNr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNr" id="stamboom/Persoon#getNr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOuders" id="stamboom/Persoon#getOuders()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRelaties" id="stamboom/Persoon#getRelaties()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStamboom" id="stamboom/Persoon#getStamboom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTussenvoegsel" id="stamboom/Persoon#getTussenvoegsel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVoornamen" id="stamboom/Persoon#getVoornamen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBetrokkenBij" id="stamboom/Persoon#isBetrokkenBij(Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNextPersNr" id="stamboom/Persoon#setNextPersNr(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOuders" id="stamboom/Persoon#setOuders(Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="stamboom/Persoon#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="standaardGegevens" id="stamboom/Persoon#standaardGegevens()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="stamboom/Persoon@kinderen+stamboom/Relatie@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="kinderen" location="593,525" id="stamboom/Persoon@kinderen+stamboom/Relatie@|stamboom/Persoon#kinderen" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - kinderen" location="959,944" size="51,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="959,972" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10" id="stamboom/Persoon@kinderen+stamboom/Relatie@|stamboom/Relatie#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="stamboom/Relatie@relaties+stamboom/Persoon@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="593,537" id="stamboom/Relatie@relaties+stamboom/Persoon@|stamboom/Persoon#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="relaties" location="10,0" id="stamboom/Relatie@relaties+stamboom/Persoon@|stamboom/Relatie#relaties" multiplicityLabel="//@children.2/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - relaties" location="2745,1577" size="45,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="2727,1577" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="stamboom/Persoon@personen+stamboom/Admin@" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="personen" location="296,0" id="stamboom/Persoon@personen+stamboom/Admin@|stamboom/Persoon#personen" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - personen" location="662,419" size="56,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="644,419" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="375,241" id="stamboom/Persoon@personen+stamboom/Admin@|stamboom/Admin#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Man" location="1388,1385" size="573,133" id="stamboom/Man" runTimeClassModel="serialVersionUID,Man([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;),getGeslacht()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="stamboom/Man#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="550,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Man" id="stamboom/Man#Man([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeslacht" id="stamboom/Man#getGeslacht()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="stamboom/Persoon&lt;-stamboom/Man" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="286,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="296,545" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Vrouw" location="1991,1385" size="587,133" id="stamboom/Vrouw" runTimeClassModel="Vrouw([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;),serialVersionUID,getGeslacht()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="stamboom/Vrouw#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="564,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Vrouw" id="stamboom/Vrouw#Vrouw([Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.GregorianCalendar;Lstamboom.Relatie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeslacht" id="stamboom/Vrouw#getGeslacht()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="stamboom/Persoon&lt;-stamboom/Vrouw" source="//@children.4" target="//@children.3/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="293,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

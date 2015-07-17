@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Arial.spritefont</Source>
+      <Name>Fonts\Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Fonts\Arial.xnb</Output>
+      <Time>2012-04-09T21:53:06.8032625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\0.png</Source>
+      <Name>Levels\Level1\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.2402875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\1.png</Source>
+      <Name>Levels\Level1\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.2452877+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag0\2.png</Source>
+      <Name>Levels\Level1\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag0\2.xnb</Output>
+      <Time>2012-04-09T21:53:07.249288+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\0.png</Source>
+      <Name>Levels\Level1\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.28429+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\1.png</Source>
+      <Name>Levels\Level1\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.2892903+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag1\2.png</Source>
+      <Name>Levels\Level1\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag1\2.xnb</Output>
+      <Time>2012-04-09T21:53:07.2932905+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\1.png</Source>
+      <Name>Levels\Level1\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag2\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.3992966+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\0.png</Source>
+      <Name>Levels\Level2\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.5863072+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\1.png</Source>
+      <Name>Levels\Level2\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.5963078+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level2\Laag0\2.png</Source>
+      <Name>Levels\Level2\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level2\Laag0\2.xnb</Output>
+      <Time>2012-04-09T21:53:07.6053083+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level1\Laag2\0.png</Source>
+      <Name>Levels\Level1\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level1\Laag2\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.389296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Player\LucSheet.png</Source>
+      <Name>Animations\Player\LucSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Animations\Player\LucSheet.xnb</Output>
+      <Time>2012-04-09T21:53:04.5161316+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\0.png</Source>
+      <Name>Levels\Level0\Laag0\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\0.xnb</Output>
+      <Time>2012-04-09T21:53:06.9312698+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\LevelScore\0.png</Source>
+      <Name>Menu\LevelScore\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\LevelScore\0.xnb</Output>
+      <Time>2012-04-09T21:53:05.0861642+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\1.png</Source>
+      <Name>Levels\Level0\Laag0\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\1.xnb</Output>
+      <Time>2012-04-09T21:53:06.9472707+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag0\2.png</Source>
+      <Name>Levels\Level0\Laag0\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag0\2.xnb</Output>
+      <Time>2012-04-09T21:53:06.9622716+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\0.png</Source>
+      <Name>Levels\Level0\Laag1\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.0122744+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\1.png</Source>
+      <Name>Levels\Level0\Laag1\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.0282753+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag1\2.png</Source>
+      <Name>Levels\Level0\Laag1\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag1\2.xnb</Output>
+      <Time>2012-04-09T21:53:07.0432762+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\0.png</Source>
+      <Name>Levels\Level0\Laag2\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\0.xnb</Output>
+      <Time>2012-04-09T21:53:07.1512824+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\1.png</Source>
+      <Name>Levels\Level0\Laag2\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\1.xnb</Output>
+      <Time>2012-04-09T21:53:07.1682833+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\2.png</Source>
+      <Name>Levels\Level0\Laag2\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\2.xnb</Output>
+      <Time>2012-04-09T21:53:07.1852843+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\3.png</Source>
+      <Name>Levels\Level0\Laag2\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\3.xnb</Output>
+      <Time>2012-04-09T21:53:07.1962849+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\4.png</Source>
+      <Name>Levels\Level0\Laag2\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\4.xnb</Output>
+      <Time>2012-04-09T21:53:07.2072856+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Level0\Laag2\5.png</Source>
+      <Name>Levels\Level0\Laag2\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Levels\Level0\Laag2\5.xnb</Output>
+      <Time>2012-04-09T21:53:07.2182862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Achtergrond\0.png</Source>
+      <Name>Menu\Achtergrond\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Achtergrond\0.xnb</Output>
+      <Time>2012-04-09T21:53:04.8011479+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Enemy\EnemyMelee.png</Source>
+      <Name>Animations\Enemy\EnemyMelee</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Animations\Enemy\EnemyMelee.xnb</Output>
+      <Time>2012-04-09T21:53:04.6281381+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Back_Blank.png</Source>
+      <Name>Menu\Knoppen\Back_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Back_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:05.9682147+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Back_Selected.png</Source>
+      <Name>Menu\Knoppen\Back_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Back_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:06.1672261+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\High_Blank.png</Source>
+      <Name>Menu\Knoppen\High_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\High_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:05.9102114+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\High_Selected.png</Source>
+      <Name>Menu\Knoppen\High_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\High_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:06.0552197+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Kies_Blank.png</Source>
+      <Name>Menu\Knoppen\Kies_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Kies_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:05.2141716+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Kies_Selected.png</Source>
+      <Name>Menu\Knoppen\Kies_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Kies_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:05.3001765+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Start_Blank.png</Source>
+      <Name>Menu\Knoppen\Start_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Start_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:05.5461906+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Start_Selected.png</Source>
+      <Name>Menu\Knoppen\Start_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Start_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:05.7612029+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Easy_Blank.png</Source>
+      <Name>Menu\Knoppen\Easy_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Easy_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:06.2122287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Easy_Selected.png</Source>
+      <Name>Menu\Knoppen\Easy_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Easy_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:06.2732321+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Hard_Blank.png</Source>
+      <Name>Menu\Knoppen\Hard_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Hard_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:05.6991993+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Hard_Selected.png</Source>
+      <Name>Menu\Knoppen\Hard_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Hard_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:05.8262066+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Medium_Blank.png</Source>
+      <Name>Menu\Knoppen\Medium_Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Medium_Blank.xnb</Output>
+      <Time>2012-04-09T21:53:06.0912217+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Knoppen\Medium_Selected.png</Source>
+      <Name>Menu\Knoppen\Medium_Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\Menu\Knoppen\Medium_Selected.xnb</Output>
+      <Time>2012-04-09T21:53:06.2462306+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top SecretContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top SecretContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Top Secret\Top Secret\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-09-04T14:08:17.1372712+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

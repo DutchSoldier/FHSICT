@@ -1,0 +1,50 @@
+﻿Ext.define("WorkordersApp.controller.Workorders", {
+    extend: "Ext.app.Controller",
+    
+    config: {
+        //Based on this ref, the framework generates a getter function that we can use to work with the
+        //reference if we need to. Ref-derived getter functions are named following a simple format,
+        //consisting of the word get and the capitalized name of the ref in question.
+        refs: {
+            mainlistView: "mainlistview",
+            optionsView: "optionsview",
+        },
+        control: {
+            mainlistView: {
+                // The commands fired by the main list container.
+                viewConfigScreenCmd: "onViewConfigScreenCmd"
+            }          
+        }      
+    },
+    
+    // Transitions
+    slideLeftTransition: { type: 'slide', direction: 'left' },
+    slideRightTransition: { type: 'slide', direction: 'right' },    
+    
+    //Functions
+    activateOptionView: function () {
+        Ext.Viewport.animateActiveItem(this.getOptionsView(), this.slideLeftTransition);
+    },
+    
+    // Commands
+    onViewConfigScreenCmd: function () {
+
+        console.log("viewConfigScreenCmd");
+        this.getApplication().getController('Options').bindData();
+        this.activateOptionView();        
+    },
+    
+    //Events
+    launch: function () {
+       
+        this.callParent();
+        
+        //LoadConfigs();        
+        LoadWorkorders();
+    },
+    init: function () {
+
+        this.callParent();
+        //console.log("init");
+    }
+});

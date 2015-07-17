@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer
+END
+SingleTouch.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/SingleTouch.js
+END
+Tap.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Tap.js
+END
+Recognizer.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Recognizer.js
+END
+Swipe.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Swipe.js
+END
+LongPress.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/LongPress.js
+END
+Drag.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Drag.js
+END
+MultiTouch.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/MultiTouch.js
+END
+Rotate.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Rotate.js
+END
+DoubleTap.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/DoubleTap.js
+END
+HorizontalSwipe.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/HorizontalSwipe.js
+END
+Pinch.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Pinch.js
+END
+VerticalSwipe.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/VerticalSwipe.js
+END
+Touch.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/event/recognizer/Touch.js
+END

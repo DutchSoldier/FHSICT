@@ -1,0 +1,9 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\bin\Debug\WindowsFormsGrapichsDemo.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\bin\Debug\WindowsFormsGrapichsDemo.pdb
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\WindowsFormsGrapichsDemo.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\WindowsFormsGrapichsDemo.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\WindowsFormsGrapichsDemo.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsGrapichsDemo\WindowsFormsGrapichsDemo\obj\x86\Debug\WindowsFormsGrapichsDemo.pdb

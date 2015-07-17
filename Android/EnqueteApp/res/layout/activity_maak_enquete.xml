@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MaakEnqueteActivity" 
+    android:orientation="vertical">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/blauw"
+            android:gravity="center"
+            android:text="Maak enquete"
+            android:textColor="@color/wit" 
+            android:paddingTop="5dp"
+        	android:paddingBottom="5dp"
+        	android:textStyle="bold"
+        	android:textSize="20sp"/>
+
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naam enquete:"/>
+        <EditText 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_enqueteNaam"
+            android:singleLine="true"
+    	    android:imeOptions="actionDone"/>
+    </LinearLayout>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beschrijving:"/>
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_enqueteBeschrijving"/>
+    <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anonieme enquete"
+        android:id="@+id/cb_anoniem"/>
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Volgende"
+	        android:id="@+id/btn_saveEnquete"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_deleteEnquete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Verwijderen"
+            android:visibility="invisible" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>

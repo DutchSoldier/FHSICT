@@ -1,0 +1,9 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\bin\Debug\WindowsFormsDemo.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\bin\Debug\WindowsFormsDemo.pdb
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\WindowsFormsDemo.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\WindowsFormsDemo.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\WindowsFormsDemo.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsDemo\WindowsFormsDemo\obj\x86\Debug\WindowsFormsDemo.pdb

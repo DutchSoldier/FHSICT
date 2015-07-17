@@ -1,0 +1,5 @@
+D:\VersneldSE1semester\SE22V\Sorteren\Sorteren\obj\Debug\ResolveAssemblyReference.cache
+D:\VersneldSE1semester\SE22V\Sorteren\Sorteren\bin\Debug\Sorteren.exe
+D:\VersneldSE1semester\SE22V\Sorteren\Sorteren\bin\Debug\Sorteren.pdb
+D:\VersneldSE1semester\SE22V\Sorteren\Sorteren\obj\Debug\Sorteren.exe
+D:\VersneldSE1semester\SE22V\Sorteren\Sorteren\obj\Debug\Sorteren.pdb

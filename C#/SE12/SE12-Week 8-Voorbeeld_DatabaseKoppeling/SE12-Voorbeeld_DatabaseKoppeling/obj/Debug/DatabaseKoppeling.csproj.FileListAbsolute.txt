@@ -1,0 +1,30 @@
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\bin\Debug\DatabaseKoppeling.exe
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\bin\Debug\DatabaseKoppeling.pdb
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\ResolveAssemblyReference.cache
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\DatabaseKoppeling.DatabaseKoppelingForm.resources
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\DatabaseKoppeling.Properties.Resources.resources
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\DatabaseKoppeling.csproj.GenerateResource.Cache
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\DatabaseKoppeling.exe
+D:\SE12\Opdrachten\week 8\DatabaseKoppeling_laatste_versie\DatabaseKoppeling\obj\Debug\DatabaseKoppeling.pdb
+D:\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.exe
+D:\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.pdb
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\DatabaseKoppeling.exe
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\DatabaseKoppeling.pdb
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\bin\Debug\DatabaseKoppeling.exe
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\bin\Debug\DatabaseKoppeling.pdb
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\ResolveAssemblyReference.cache
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\DatabaseKoppeling.DatabaseKoppelingForm.resources
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\DatabaseKoppeling.Properties.Resources.resources
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\ResGen.read.1.tlog
+D:\old_stuff\SE12\Opdrachten\week 8\Voorbeeld_DatabaseKoppeling - Copy\obj\Debug\ResGen.write.1.tlog
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.exe
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.pdb
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\bin\Debug\DatabaseKoppeling.exe
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\bin\Debug\DatabaseKoppeling.pdb
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.DatabaseKoppelingForm.resources
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\DatabaseKoppeling.Properties.Resources.resources
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\ResGen.read.1.tlog
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Remi\Downloads\SE12-Week 8-Voorbeeld_DatabaseKoppeling\SE12-Voorbeeld_DatabaseKoppeling\obj\Debug\ResGen.write.1.tlog

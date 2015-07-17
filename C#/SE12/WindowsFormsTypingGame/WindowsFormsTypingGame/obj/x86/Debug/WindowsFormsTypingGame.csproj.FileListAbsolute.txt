@@ -1,0 +1,9 @@
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\bin\Debug\WindowsFormsTypingGame.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\bin\Debug\WindowsFormsTypingGame.pdb
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\WindowsFormsTypingGame.Form1.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\WindowsFormsTypingGame.Properties.Resources.resources
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\WindowsFormsTypingGame.exe
+C:\Users\Remi\Documents\Visual Studio 2010\Projects\WindowsFormsTypingGame\WindowsFormsTypingGame\obj\x86\Debug\WindowsFormsTypingGame.pdb

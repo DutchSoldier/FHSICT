@@ -1,0 +1,5 @@
+c:\users\remi_arts\documents\visual studio 2010\Projects\week1 les\week1 les\bin\week1 les.dll
+c:\users\remi_arts\documents\visual studio 2010\Projects\week1 les\week1 les\bin\week1 les.pdb
+c:\users\remi_arts\documents\visual studio 2010\Projects\week1 les\week1 les\obj\Debug\ResolveAssemblyReference.cache
+c:\users\remi_arts\documents\visual studio 2010\Projects\week1 les\week1 les\obj\Debug\week1 les.dll
+c:\users\remi_arts\documents\visual studio 2010\Projects\week1 les\week1 les\obj\Debug\week1 les.pdb

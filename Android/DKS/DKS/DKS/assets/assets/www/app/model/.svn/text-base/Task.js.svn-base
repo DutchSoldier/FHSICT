@@ -1,0 +1,15 @@
+Ext.define("WorkordersApp.model.Task", {
+    extend: "Ext.data.Model",
+    config: {
+        idProperty: 'tsk_id',
+        fields: [
+            { name: 'tsk_id'            , type: 'int'    },
+            //{ name: 'tsk_workorderId'   , type: 'string' }, 
+            { name: 'tsk_smallDesc'     , type: 'string' }, //displaying is optional !
+            { name: 'tsk_fullDesc'      , type: 'string' },
+            { name: 'tsk_hoursPlanned'  , type: 'float'  }, //displaying is optional !
+            { name: 'tsk_hoursWorked'   , type: 'float'  },
+            { name: 'tsk_price'         , type: 'float'  }  //displaying is optional !
+        ]
+    }
+});

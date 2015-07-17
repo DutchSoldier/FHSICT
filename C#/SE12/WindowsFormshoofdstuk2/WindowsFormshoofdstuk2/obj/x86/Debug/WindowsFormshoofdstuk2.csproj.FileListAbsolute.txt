@@ -1,0 +1,5 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2\WindowsFormshoofdstuk2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2\WindowsFormshoofdstuk2\obj\x86\Debug\WindowsFormshoofdstuk2.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2\WindowsFormshoofdstuk2\obj\x86\Debug\WindowsFormshoofdstuk2.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2\WindowsFormshoofdstuk2\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormshoofdstuk2\WindowsFormshoofdstuk2\obj\x86\Debug\GenerateResource.write.1.tlog

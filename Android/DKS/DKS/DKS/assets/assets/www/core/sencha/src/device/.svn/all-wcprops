@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device
+END
+Notification.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Notification.js
+END
+Camera.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Camera.js
+END
+Orientation.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Orientation.js
+END
+Connection.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Connection.js
+END
+Device.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Device.js
+END
+Push.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Push.js
+END
+Communicator.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Communicator.js
+END
+Geolocation.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/device/Geolocation.js
+END

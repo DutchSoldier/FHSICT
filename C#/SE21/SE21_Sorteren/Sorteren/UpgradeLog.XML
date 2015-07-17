@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Sorteren">
+</Property><Property Name="Solution File" Value="D:\VersneldSE1semester\SE22V\Sorteren\Sorteren.sln">
+</Property><Property Name="User Options File" Value="D:\VersneldSE1semester\SE22V\Sorteren\Sorteren.suo">
+</Property><Property Name="Date" Value="Saturday, September 25, 2010">
+</Property><Property Name="Time" Value="13:51 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Sorteren.sln" Description="File successfully backed up as D:\VersneldSE1semester\SE22V\Sorteren\Backup\Sorteren.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Sorteren.suo" Description="File successfully backed up as D:\VersneldSE1semester\SE22V\Sorteren\Backup\Sorteren.suo">
+</Event><Event ErrorLevel="0" Project="Sorteren" Source="Sorteren\Sorteren.csproj" Description="Project file successfully backed up as D:\VersneldSE1semester\SE22V\Sorteren\Backup\Sorteren\Sorteren.csproj">
+</Event><Event ErrorLevel="0" Project="Sorteren" Source="Sorteren\Program.cs" Description="File successfully backed up as D:\VersneldSE1semester\SE22V\Sorteren\Backup\Sorteren\Program.cs">
+</Event><Event ErrorLevel="0" Project="Sorteren" Source="Sorteren\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VersneldSE1semester\SE22V\Sorteren\Backup\Sorteren\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Sorteren" Source="Sorteren\Sorteren.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Sorteren" Source="Sorteren\Sorteren.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Sorteren.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Sorteren.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Sorteren" Source="Sorteren\Sorteren.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

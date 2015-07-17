@@ -1,0 +1,9 @@
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\bin\Debug\WindowsFormsFlash.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\bin\Debug\WindowsFormsFlash.pdb
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\WindowsFormsFlash.Form1.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\WindowsFormsFlash.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\WindowsFormsFlash.exe
+c:\users\remi\documents\visual studio 2010\Projects\WindowsFormsFlash\WindowsFormsFlash\obj\x86\Debug\WindowsFormsFlash.pdb

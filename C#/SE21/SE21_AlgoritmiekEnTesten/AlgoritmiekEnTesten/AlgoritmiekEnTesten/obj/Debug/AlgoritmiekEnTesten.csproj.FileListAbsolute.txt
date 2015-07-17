@@ -1,0 +1,8 @@
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.dll
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\AlgoritmiekEnTesten.pdb
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\ContainerAlgoritmiek.dll
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\ContainerAlgoritmiek.pdb
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\bin\Debug\nunit.framework.xml
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\obj\Debug\ResolveAssemblyReference.cache
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\obj\Debug\AlgoritmiekEnTesten.dll
+D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten\obj\Debug\AlgoritmiekEnTesten.pdb

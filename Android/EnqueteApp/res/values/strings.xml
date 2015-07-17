@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Enquete App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_afneem_enquete_lijst">AfneemEnqueteLijstActivity</string>
+    <string name="title_activity_wijzig_enquete_lijst">WijzigEnqueteLijstActivity</string>
+    <string name="title_activity_afneem_enquete">AfneemEnqueteActivity</string>
+    <string name="title_activity_maak_enquete">MaakEnqueteActivity</string>
+    <string name="title_activity_wijzig_enquete">WijzigEnqueteActivity</string>
+    <string name="title_activity_gebruiker_aanmaken">GebruikerAanmakenActivity</string>
+    <string name="title_activity_maak_vraag">MaakVraagActivity</string>
+    <string name="title_activity_resultaten_enquete_lijst">ResultatenEnqueteLijstActivity</string>
+    <string name="title_activity_resultaten">ResultatenActivity</string>
+    <string name="title_activity_vragen_lijst">VragenLijstActivity</string>
+    <string name="title_activity_gebruiker_lijst">GebruikerLijstActivity</string>
+
+</resources>

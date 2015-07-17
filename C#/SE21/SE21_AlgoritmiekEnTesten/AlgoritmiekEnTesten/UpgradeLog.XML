@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AlgoritmiekEnTesten">
+</Property><Property Name="Solution File" Value="D:\se21\AlgoritmiekEnTesten\AlgoritmiekEnTesten.sln">
+</Property><Property Name="Date" Value="06 April 2010">
+</Property><Property Name="Time" Value="13:53">
+</Property></Properties><Event ErrorLevel="0" Project="AlgoritmiekEnTesten" Source="AlgoritmiekEnTesten\AlgoritmiekEnTesten.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AlgoritmiekEnTesten" Source="AlgoritmiekEnTesten\AlgoritmiekEnTesten.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ContainerAlgoritmiek" Source="ContainerAlgoritmiek\ContainerAlgoritmiek.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ContainerAlgoritmiek" Source="ContainerAlgoritmiek\ContainerAlgoritmiek.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AlgoritmiekEnTesten.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AlgoritmiekEnTesten.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AlgoritmiekEnTesten" Source="AlgoritmiekEnTesten\AlgoritmiekEnTesten.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ContainerAlgoritmiek" Source="ContainerAlgoritmiek\ContainerAlgoritmiek.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

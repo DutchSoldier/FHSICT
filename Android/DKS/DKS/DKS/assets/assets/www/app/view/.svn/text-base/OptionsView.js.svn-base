@@ -1,0 +1,118 @@
+﻿Ext.define("WorkordersApp.view.OptionsView", {
+    extend: "Ext.form.Panel",
+    alias: "widget.optionsview",
+    
+    config: {
+        items: [
+                {
+                    xtype: "toolbar",
+                    docked: "top",
+                    title: GetLocaleString("Options"),
+                    items: []
+                },{
+                    xtype: "toolbar",
+                    ui: 'light',
+                    docked: "bottom",
+                    items: [
+                    {
+                        xtype: "button",
+                        text: GetLocaleString("Back"),
+                        ui: "back",
+                        id: "btnCancelOpt"
+                    },{
+                        xtype: "spacer"
+                    }]
+                },{
+                    xtype: 'selectfield',
+                    id: 'groupBySelector',
+                    name: 'groupBySelector',
+                    label: GetLocaleString("Group by:"),
+                    labelWidth: '35%',
+                    valueField: 'groupByField',
+                    displayField: 'groupByFieldDesc',
+                    store: {
+                        data: [
+                            { groupByField: 'week', groupByFieldDesc: GetLocaleString("Week number")},
+                            { groupByField: 'debtor', groupByFieldDesc: GetLocaleString("Debtor")}
+                        ]
+                    }                    
+                },{
+                    xtype: 'selectfield',
+                    id: 'sortSelector',
+                    name: 'sortSelector',
+                    label: GetLocaleString("Sort by:"),
+                    labelWidth: '35%',
+                    valueField: 'sortByField',
+                    displayField: 'sortByFieldDesc',
+                    store: {
+                        data: [
+                            { sortByField: 'week', sortByFieldDesc: GetLocaleString("Week number")},
+                            { sortByField: 'debtor', sortByFieldDesc: GetLocaleString("Debtor")}                      
+                        ]
+                    }                    
+                },{
+                    xtype: 'selectfield',
+                    id: 'languageSelector',
+                    name: 'languageSelector',
+                    label: GetLocaleString("Language:"),
+                    labelWidth: '35%',
+                    valueField: 'languageField',
+                    displayField: 'languageFieldDesc',
+                    store: {
+                        data: [
+                            { languageField: 'english', languageFieldDesc: 'English'},
+                            { languageField: 'dutch', languageFieldDesc: 'Dutch'}
+                        ]
+                    }
+                }  
+        ],
+        listeners: [{
+                delegate: "#groupBySelector",
+                event: "change",
+                fn: "onGroupBySelectorChange"
+            },{
+                delegate: "#sortSelector",
+                event: "change",
+                fn: "onSortSelectorChange"                    
+            },{
+                delegate: "#languageSelector",
+                event: "change",
+                fn: "onLanguageSelectorChange"
+            },{
+                delegate: "#btnCancelOpt",
+                event: "tap",
+                fn: "onCancelButtonTap"
+            },  
+        ]        
+    },
+    //
+    onGroupBySelectorChange: function (select, newValue, oldValue) {
+
+        var ctrlStore = select.getStore();
+        var newIndex = ctrlStore.find('groupByField', newValue);
+        
+        this.fireEvent("groupFieldChangeCmd", this,  newIndex);
+    },
+    
+    onSortSelectorChange: function (select, newValue, oldValue) {
+       
+        var ctrlStore = select.getStore();
+        var newIndex = ctrlStore.find('sortByField', newValue);
+        
+//        ctrlStore.each(function(rec){
+//            console.log(rec.get('sortByField'));      
+//        });        
+               
+        this.fireEvent("sortFieldChangeCmd", this,  newIndex);
+    },
+    
+    onLanguageSelectorChange: function (select, newValue, oldValue) {
+
+        this.fireEvent("languageChangeCmd", this,  newValue);
+    },
+    
+    onCancelButtonTap: function () {
+        
+        this.fireEvent("cancelCmd", this);
+    }, 
+}); 

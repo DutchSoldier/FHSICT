@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct
+END
+JsonProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/JsonProvider.js
+END
+RemotingMethod.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/RemotingMethod.js
+END
+Transaction.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/Transaction.js
+END
+RemotingEvent.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/RemotingEvent.js
+END
+Manager.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/Manager.js
+END
+Provider.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/Provider.js
+END
+PollingProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/PollingProvider.js
+END
+RemotingProvider.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/RemotingProvider.js
+END
+ExceptionEvent.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/ExceptionEvent.js
+END
+Event.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/workorderapp/code/!svn/ver/3/trunk/v0.3/assets/www/core/sencha/src/direct/Event.js
+END

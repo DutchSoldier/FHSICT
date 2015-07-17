@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crimename">
+        <item >Burglary</item>
+        <item >Murder</item>
+        <item >Jaywalking</item>
+        <item >Cooking meth</item>
+        <item >Hacking</item>
+        </string-array>
+</resources>

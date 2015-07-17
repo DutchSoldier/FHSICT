@@ -1,0 +1,11 @@
+C:\Users\Bas\Desktop\Delegates\Delegates\bin\Debug\Delegates.exe
+C:\Users\Bas\Desktop\Delegates\Delegates\bin\Debug\Delegates.pdb
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.Form1.resources
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.Properties.Resources.resources
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.exe
+C:\Users\Bas\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.pdb
+C:\Users\Remi\Dropbox\S23\SE21\Delegates\Delegates\obj\x86\Debug\Delegates.exe
+C:\Users\Remi\Dropbox\S23\SE21\Delegates\Delegates\obj\x86\Debug\Delegates.pdb

@@ -1,0 +1,14 @@
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\bin\Debug\Proftaak Reservering.exe
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\bin\Debug\Proftaak Reservering.pdb
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\Proftaak_Reservering.Properties.Resources.resources
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\Proftaak Reservering.exe
+c:\users\gebruiker\documents\visual studio 2010\Projects\Proftaak Reservering\Proftaak Reservering\obj\x86\Debug\Proftaak Reservering.pdb
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\Proftaak Reservering.exe
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\Proftaak Reservering.pdb
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\Proftaak_Reservering.Properties.Resources.resources
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Desktop\A8e\A8e\Top Secret\Proftaak Reservering (melvin)\Proftaak Reservering\obj\x86\Debug\GenerateResource.write.1.tlog

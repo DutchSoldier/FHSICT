@@ -1,0 +1,8 @@
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\bin\Debug\afbeelding zoeker.exe
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\bin\Debug\afbeelding zoeker.pdb
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\afbeelding_zoeker.Properties.Resources.resources
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\afbeelding zoeker.exe
+c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\afbeelding zoeker\obj\x86\Debug\afbeelding zoeker.pdb

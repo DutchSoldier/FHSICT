@@ -1,0 +1,9 @@
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\ArdDangerCom.ArDangerComMainForm.resources
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\ArdDangerCom.Properties.Resources.resources
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\bin\Debug\ArdDangerCom.exe
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\bin\Debug\ArdDangerCom.pdb
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\ArdDangerCom.exe
+C:\Users\Simon\Documents\Huiswerk\Technology\ES12\ArdDangerCom\ArdDangerCom\obj\x86\Debug\ArdDangerCom.pdb

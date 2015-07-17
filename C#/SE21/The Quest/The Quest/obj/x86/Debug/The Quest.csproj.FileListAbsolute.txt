@@ -1,0 +1,14 @@
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\bin\Debug\The Quest.exe
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\bin\Debug\The Quest.pdb
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\The_Quest.Form1.resources
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\The_Quest.Properties.Resources.resources
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\The Quest.exe
+c:\users\remi_arts\documents\visual studio 2010\Projects\The Quest\The Quest\obj\x86\Debug\The Quest.pdb
+C:\Users\Remi\Dropbox\Projects\SE21\The Quest\The Quest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remi\Dropbox\Projects\SE21\The Quest\The Quest\obj\x86\Debug\The_Quest.Form1.resources
+C:\Users\Remi\Dropbox\Projects\SE21\The Quest\The Quest\obj\x86\Debug\The_Quest.Properties.Resources.resources
+C:\Users\Remi\Dropbox\Projects\SE21\The Quest\The Quest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Remi\Dropbox\Projects\SE21\The Quest\The Quest\obj\x86\Debug\GenerateResource.write.1.tlog
