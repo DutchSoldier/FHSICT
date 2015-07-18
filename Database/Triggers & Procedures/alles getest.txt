@@ -1,0 +1,380 @@
+CREATE OR REPLACE PROCEDURE GetAantalPersonen
+	(V_RESERVERINGSNUMMER in number,
+	V_AANTAL OUT NUMBER)
+IS
+	
+BEGIN
+SELECT COUNT (RFID)
+INTO V_AANTAL
+FROM KLANT
+WHERE reserveringsnummer = V_RESERVERINGSNUMMER;
+V_AANTAL := V_AANTAL + 1;
+END;
+/
+
+
+CREATE OR REPLACE PROCEDURE getReserveringPrijs
+(V_resNR in number, V_prijs out number)
+IS
+BEGIN
+SELECT SUM((SELECT prijs FROM kampeerplaats WHERE plaatsnummer = rp.plaatsnummer)) AS prijs 
+INTO V_prijs
+FROM reservering_plaats rp 
+WHERE rp.reserveringsnummer = V_resNR;
+END getReserveringPrijs;
+/
+
+create or replace
+PROCEDURE GetNewRFID
+	(v_RFID OUT varchar)	
+IS
+ 	cursor c_selector
+	IS
+        select *
+	from RFID_col
+	where RFID not in (select RFID from Persoon);
+
+BEGIN
+	open c_selector;
+	fetch c_selector
+	into v_RFID;
+	close c_selector;
+END GetNewRFID;
+/
+
+create or replace
+PROCEDURE GetNewReserveringsnummer
+(V_resNR out number)
+IS
+V_maxResNR  number;
+BEGIN
+SELECT MAX(reserveringsnummer)
+INTO V_maxResNR
+from reservering;
+
+if V_maxResNR is null then
+V_maxResNR := 0;
+end if;
+
+V_resNR := V_maxResNR + 1;
+END GetNewReserveringsnummer;
+/
+
+
+CREATE OR REPLACE PROCEDURE getAantalUitgeleend
+(V_type out varchar, V_aantal out number)
+IS
+BEGIN
+SELECT type, COUNT(aantal) as aantal
+INTO V_type, V_aantal
+FROM uitlening
+GROUP BY type;
+END getAantalUitgeleend;
+/
+
+create or replace
+PROCEDURE GetAlleGereserveerdePlaatsen
+	(C_GERESERVEERD OUT SYS_REFCURSOR)
+IS
+BEGIN
+	OPEN C_GERESERVEERD
+	FOR SELECT plaatsnummer
+	FROM Reservering_plaats;
+END;
+/
+
+create or replace procedure getUitlening
+(C_UIT OUT SYS_REFCURSOR)
+is
+begin
+OPEN C_UIT
+for select aantal, type
+from uitlening;
+end getUitlening;
+/
+
+create or replace
+PROCEDURE getPersonenBijUitlening
+(C_UIT OUT SYS_REFCURSOR)
+IS
+BEGIN
+OPEN C_UIT
+FOR SELECT reserveringsnummer, type, aantal
+FROM uitlening;
+END getPersonenBijUitlening;
+/
+
+create or replace procedure addReservering
+(v_resNr in number,
+ v_betaald in varchar2)
+ is
+ begin
+ insert into RESERVERING (RESERVERINGSNUMMER, BETAALD)
+ values (v_resNr, v_betaald);
+ end addReservering;
+ /
+ 
+ CREATE OR REPLACE PROCEDURE addKlant
+	(V_RFID IN VARCHAR, 
+	V_WACHTWOORD IN VARCHAR, 
+	V_TYPE IN VARCHAR, 
+	V_RESERVERINGSNUMMER IN NUMBER)
+IS
+BEGIN
+	INSERT INTO PERSOON (RFID, WACHTWOORD, TYPE) VALUES(V_RFID, V_WACHTWOORD, V_TYPE);
+	commit;
+	INSERT INTO KLANT (RFID, RESERVERINGSNUMMER) VALUES(V_RFID, V_RESERVERINGSNUMMER);
+END addKlant;
+/
+
+CREATE OR REPLACE PROCEDURE AddReserveringPlaats
+	(V_KAMPEERPLAATS IN NUMBER,
+	V_RESERVERINGSNUMMER IN NUMBER)
+IS
+BEGIN
+INSERT INTO Reservering_Plaats (Reserveringsnummer, Plaatsnummer)
+values (V_RESERVERINGSNUMMER, V_KAMPEERPLAATS);
+END AddReserveringPlaats;
+/
+
+CREATE OR REPLACE PROCEDURE getBetalendeKlant
+(V_resNumber in number, C_klant OUT SYS_REFCURSOR)
+IS
+BEGIN
+	OPEN C_KLANT 
+	FOR SELECT rfid, naam, rijbewijsnummer, email, telefoon, woonplaats, straat, rekeningnummer, postcode 
+	FROM klant_betalend 
+	where reserveringsnummer = V_resNumber;
+END getBetalendeKlant;
+/
+
+CREATE OR REPLACE PROCEDURE updateBetalendeKlant
+(V_REKENINGNUMMER IN VARCHAR,
+V_STRAAT IN VARCHAR,
+V_WOONPLAATS IN VARCHAR,
+V_POSTCODE IN VARCHAR,
+V_TELEFOON IN NUMBER,
+V_EMAIL IN VARCHAR,
+V_RIJBEWIJSNUMMER IN NUMBER,
+V_RESERVERINGSNUMMER IN NUMBER,
+V_NAAM IN VARCHAR)
+IS
+BEGIN
+UPDATE Klant_betalend set straat = V_STRAAT;
+UPDATE Klant_betalend set woonplaats = V_WOONPLAATS;
+UPDATE Klant_betalend set postcode = V_POSTCODE;
+UPDATE Klant_betalend set telefoon = V_TELEFOON;
+UPDATE Klant_betalend set email = V_EMAIL;
+UPDATE Klant_betalend set rijbewijsnummer = V_RIJBEWIJSNUMMER;
+UPDATE Klant_betalend set reserveringsnummer = V_RESERVERINGSNUMMER;
+UPDATE Klant_betalend set naam = V_NAAM;
+UPDATE Klant_betalend set rekeningnummer = V_REKENINGNUMMER;
+END updateBetalendeKlant;
+/
+
+CREATE OR REPLACE PROCEDURE getInlogGegevens
+(V_resNR in number, V_RFID_KlantBetalend out varchar, V_RFID_Klant out varchar)
+IS
+BEGIN
+SELECT RFID
+INTO V_RFID_KlantBetalend
+FROM klant_betalend
+WHERE reserveringsnummer = V_resNR;
+SELECT RFID
+INTO V_RFID_Klant
+FROM klant
+WHERE reserveringsnummer = V_resNR;
+END getInlogGegevens;
+/
+
+CREATE OR REPLACE PROCEDURE getHoeveelheidMateriaal
+(C_MAT OUT SYS_REFCURSOR)
+IS
+BEGIN
+OPEN C_MAT
+FOR SELECT type, aantal, verhuurprijs
+FROM materiaal;
+END getHoeveelheidMateriaal;
+/
+
+Create or replace procedure GetKampeerPlekken
+	(C_BESCHIKBAAR OUT SYS_REFCURSOR)
+IS
+BEGIN
+OPEN C_BESCHIKBAAR
+FOR SELECT plaatsnummer
+FROM kampeerplaats
+WHERE Plaatsnummer NOT IN (SELECT Plaatsnummer
+							From Reservering_Plaats);
+END GetKampeerPlekken;
+/
+
+CREATE OR REPLACE PROCEDURE removeUitlening
+(V_resNR in number, V_type in varchar, V_aantal in number)
+IS
+BEGIN
+UPDATE uitlening
+SET aantal = aantal - V_aantal
+WHERE type = V_type
+AND reserveringsnummer = V_resNR;
+END removeUitlening;
+/
+
+CREATE OR REPLACE PROCEDURE removeReservering
+	(V_RESERVERINGSNUMMER IN NUMBER)
+IS
+BEGIN
+	DELETE FROM RESERVERING WHERE RESERVERINGSNUMMER = V_RESERVERINGSNUMMER;
+END removeReservering;
+/
+
+	CREATE OR REPLACE PROCEDURE RemovePlaats
+		(V_RESERVERINGSNUMMER IN NUMBER,
+		V_PLAATSNUMMER IN NUMBER)
+	IS
+
+	BEGIN
+	DELETE FROM Reservering_Plaats
+	WHERE Reserveringsnummer = V_RESERVERINGSNUMMER
+	AND Plaatsnummer = V_PLAATSNUMMER;
+	END RemovePlaats;
+	/
+	
+	
+CREATE OR REPLACE PROCEDURE REMOVEKLANT
+(V_RFID VARCHAR)
+IS
+BEGIN
+DELETE
+FROM KLANT
+WHERE RFID = V_RFID;
+END REMOVEKLANT;
+/
+
+CREATE OR REPLACE PROCEDURE RemoveGeheleUitlening
+(V_RESERVERINGSNUMMER IN NUMBER)
+IS
+BEGIN
+	DELETE FROM UITLENING
+	WHERE RESERVERINGSNUMMER = V_RESERVERINGSNUMMER;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE GetRfidReservering
+(P_RESERVERINGSNUMMER IN NUMBER, V_RFID out varchar)
+IS
+BEGIN
+	SELECT RFID
+	INTO V_RFID
+	FROM KLANT_BETALEND
+	WHERE RESERVERINGSNUMMER = P_RESERVERINGSNUMMER;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE getReserveringPlaatsen
+(V_resNR in number, C_PLAATS out SYS_REFCURSOR)
+IS
+BEGIN
+OPEN C_PLAATS
+FOR SELECT plaatsnummer
+FROM reservering_plaats
+WHERE reserveringsnummer = V_resNR;
+END getReserveringPlaatsen;
+/
+
+create or replace procedure updateUitlening
+(v_resNr in number,
+ v_type in varchar,
+v_aantal in number)
+ is
+ begin
+   UPDATE UITLENING SET AANTAL = AANTAL + V_AANTAL WHERE (RESERVERINGSNUMMER = v_resNr AND TYPE = v_type);
+ end updateUitlening;
+/
+
+create or replace
+PROCEDURE GetNewReserveringsnummer
+(V_resNR out number)
+IS
+V_maxResNR  number;
+BEGIN
+SELECT MAX(reserveringsnummer)
+INTO V_maxResNR
+from reservering;
+V_resNR := V_maxResNR + 1;
+END GetNewReserveringsnummer;
+/
+
+
+CREATE OR REPLACE PROCEDURE GetReserveringen
+(C_reserveringen out SYS_REFCURSOR)
+IS
+Begin
+OPEN C_reserveringen 
+FOR SELECT klb.reserveringsnummer, klb.naam, (SELECT COUNT(rfid) + 1 FROM klant 
+											  WHERE reserveringsnummer = klb.reserveringsnummer) AS personen
+FROM klant_betalend klb;
+END Getreserveringen;
+/
+
+CREATE OR REPLACE PROCEDURE getToRemoveKlanten
+(V_resNR in number, C_RFID out SYS_REFCURSOR)
+IS
+BEGIN
+OPEN C_RFID
+FOR SELECT RFID
+FROM klant
+WHERE reserveringsnummer = V_resNR;
+END getToRemoveKlanten;
+/
+
+create or replace
+PROCEDURE addBetalendeKlant
+	(V_RFID in varchar,
+	V_wachtwoord in varchar,
+	V_type in varchar,
+	V_rekeningnummer IN number,
+	V_straat IN VARCHAR,
+	V_woonplaats IN VARCHAR,
+	V_postcode IN VARCHAR,
+	V_telefoon IN NUMBER,
+	V_email IN VARCHAR,
+	V_rijbewijsnummer IN NUMBER,
+	V_resNR IN NUMBER,
+	V_naam IN VARCHAR,
+	V_active in number,
+	v_activationCode in varchar)
+IS
+BEGIN
+INSERT INTO PERSOON (RFID, WACHTWOORD, TYPE) VALUES(V_RFID, V_wachtwoord, V_type); 
+commit;
+INSERT INTO KLANT_BETALEND (RFID, RESERVERINGSNUMMER, NAAM, STRAAT, POSTCODE, WOONPLAATS, TELEFOON, EMAIL, REKENINGNUMMER, RIJBEWIJSNUMMER, ACTIVE, ACTIVATIONCODE) 
+VALUES (V_RFID, V_resNR, V_naam, V_straat, V_postcode, V_woonplaats, V_telefoon, V_email, V_rekeningnummer, V_rijbewijsnummer, V_active, V_activationcode);
+END addBetalendeKlant;
+/
+
+CREATE OR REPLACE PROCEDURE SetUserActive
+(V_RFID in varchar,
+V_Activationcode in varchar)
+IS
+BEGIN
+UPDATE KLANT_BETALEND 
+SET ACTIVE = 1 
+WHERE RFID = V_RFID
+AND ACTIVATIONCODE = V_Activationcode;
+END SetUserActive;
+/
+
+create or replace
+PROCEDURE LOGIN(p_rfid IN varchar2, p_password IN varchar2, p_result OUT number)
+IS
+BEGIN
+	SELECT COUNT(*) 
+	INTO p_result
+	FROM PERSOON, KLANT_BETALEND
+	WHERE PERSOON.RFID = p_rfid 
+	AND PERSOON.WACHTWOORD = p_password
+	AND KLANT_BETALEND.ACTIVE = 1;
+END login;
+/
+

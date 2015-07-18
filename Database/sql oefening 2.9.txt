@@ -1,0 +1,112 @@
+1.
+
+set serveroutput on
+declare
+
+i_user  constant integer := 261191;
+d_datetime date;
+
+begin
+
+select current_date
+into d_datetime
+from dual;
+
+dbms_output.put_line (i_user || '   ' || d_datetime);
+end;
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+2.
+
+set serveroutput on;
+
+Declare
+v_naam varchar2(10) := 'Remi Arts';
+v_dagen integer;
+v_maanden integer;
+v_jaren integer;
+v_vandaag date;
+v_gebdatum date;
+
+Begin
+select current_date
+into v_vandaag
+from dual;
+
+v_gebdatum := TO_DATE('03-10-1989','dd/mm/yyyy');
+v_dagen := v_vandaag - v_gebdatum;
+v_jaren := v_dagen / 365.2425;
+v_maanden := v_jaren * 12;
+
+
+Dbms_output.put_line('Dagen: '||v_dagen);
+Dbms_output.put_line('Maanden: '||v_maanden);
+Dbms_output.put_line('Jaren: '||v_jaren);
+End;
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+3.
+
+Set serveroutput on
+Declare
+  i_teller  	integer		DEFAULT 1;
+  c_tafeltje	constant 	integer := 6;
+  i_uitkomst	integer;
+Begin
+  while i_teller<=10 loop
+    i_uitkomst := i_teller * c_tafeltje;
+    dbms_output.put_line(i_teller || ' x ' || c_tafeltje || ' = ' || i_uitkomst);
+    i_teller := i_teller + 1;
+  end loop;
+End;
+
+Set serveroutput on
+Declare
+  i_teller  	integer		DEFAULT 1;
+  c_tafeltje	constant 	integer := 6;
+  i_uitkomst	integer;
+Begin
+  for i in 1..10 loop
+
+    i_uitkomst := i_teller * c_tafeltje;
+    dbms_output.put_line(i_teller || ' x ' || c_tafeltje || ' = ' || i_uitkomst);
+    i_teller := i_teller + 1;
+  end loop;
+End;
+
+Set serveroutput on
+Declare
+  i_teller  	integer		DEFAULT 1;
+  c_tafeltje	constant 	integer := 6;
+  i_uitkomst	integer;
+Begin
+  loop
+
+    i_uitkomst := i_teller * c_tafeltje;
+    dbms_output.put_line(i_teller || ' x ' || c_tafeltje || ' = ' || i_uitkomst);
+    i_teller := i_teller + 1;
+  exit when i_teller > 10;
+end loop;
+End;
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+4.
+
+to_char(v_gebdat, 'd') in ('6', '7') of ('7','1')
+
+5.
+
+6.
+
+rowcount
+
+7.
+
+
+8.
+
+9.
+

@@ -1,0 +1,89 @@
+5.5
+
+1.
+CREATE OR REPLACE PROCEDURE PRINT
+ (P_TEXT IN VARCHAR2)	
+
+IS
+
+BEGIN
+dbms_output.put_line (P_TEXT || 'TEST');
+
+END PRINT;
+
+
+3.
+
+
+
+4.
+
+declare
+   v_rekening varchar2( 20 );
+
+   function geldig_bankrek ( p_reknr in varchar2 )
+      return boolean
+   is 
+      v_reknr  varchar2( 20 ) := p_reknr;
+      v_lengte constant number := 9;
+      v_som    number default 0;
+      v_cijfer varchar2( 1 );
+   begin
+      v_reknr := replace( v_reknr , '.' , '' );
+      v_reknr := replace( v_reknr , ' ' , '' ); 
+      if length( v_reknr ) <> v_lengte
+      then
+         return false;
+      else
+         for i in 1 .. v_lengte 
+         loop
+            v_cijfer := substr( v_reknr , i , 1 );
+            if v_cijfer not between 0 and 9
+            then
+               return false;
+            end if;
+            v_som := v_som + ( ((v_lengte+1) - i) * v_cijfer );
+         end loop ;
+         if mod( v_som , 11 ) <> 0 
+         then 
+            return false;
+         else
+            return true;
+         end if;
+      end if;
+   end geldig_bankrek ;
+
+begin
+   v_rekening := '&rekeningnummer';
+   if geldig_bankrek( p_reknr => v_rekening ) 
+   then
+      dbms_output.put_line( 'Geldig rekeningnummer' );
+   else
+      dbms_output.put_line( 'Ongeldig rekeningnummer' ); 
+   end if;
+end;
+
+7.10
+
+2.
+
+EXEC PRINT ('TEST')
+
+3.
+
+CREATE OR REPLACE FUNCTION YEARS_BETWEEN
+(P_JAREN IN INTEGER, V_BEGIN IN DATE, V_EIND IN DATE)
+
+RETURN NUMBER
+
+IS 
+
+BEGIN
+
+P_JAREN := V_EIND - V_BEGIN;
+P_JAREN := P_JAREN/ 365.2425
+
+Dbms_output.put_line('Jaren: '||P_JAREN);
+RETURN P_JAREN;
+
+END;

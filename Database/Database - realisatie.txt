@@ -1,0 +1,137 @@
+CREATE TABLE Kampeerplaats
+(Plaatsnummer varchar(10) PRIMARY KEY NOT NULL,
+Coordinaat_x number(4) NOT NULL,
+Coordinaat_y number(4) NOT NULL,
+Prijs number(5) NOT NULL,
+Opmerkingen varchar(75),
+CONSTRAINT uc_Corrdinaat UNIQUE (Coordinaat_x, Coordinaat_y));
+
+CREATE TABLE Reservering
+(Reserveringsnummer number(10) PRIMARY KEY NOT NULL,
+Betaald varchar(5) DEFAULT 'false',
+CONSTRAINT truefalse1 CHECK (Betaald='false' OR Betaald='true'));
+
+CREATE TABLE Reservering_plaats
+(Reserveringsnummer number(10) NOT NULL,
+Plaatsnummer varchar(10) UNIQUE NOT NULL,
+PRIMARY KEY (Reserveringsnummer, Plaatsnummer),
+FOREIGN KEY (Reserveringsnummer) references Reservering(Reserveringsnummer) ON DELETE CASCADE,
+FOREIGN KEY (Plaatsnummer) references Kampeerplaats(Plaatsnummer) ON DELETE CASCADE);
+
+CREATE TABLE Materiaal
+(Type varchar(30) PRIMARY KEY NOT NULL,
+Aantal number(3) NOT NULL,
+Verhuurprijs number(5) NOT NULL);
+
+CREATE TABLE Uitlening
+(Reserveringsnummer number(10) NOT NULL,
+Type varchar(30) NOT NULL,
+Datum_uitgeleend DATE DEFAULT SYSDATE NOT NULL, 
+Datum_ingeleverd DATE,
+Aantal number(3) NOT NULL,
+PRIMARY KEY (Reserveringsnummer, Type),
+FOREIGN KEY (Reserveringsnummer) references Reservering(Reserveringsnummer) ON DELETE CASCADE,
+FOREIGN KEY (Type) references Materiaal(Type) ON DELETE CASCADE);
+
+CREATE TABLE RFID_col
+(RFID varchar(10) PRIMARY KEY NOT NULL);
+
+CREATE TABLE Persoon
+(RFID varchar(10) PRIMARY KEY NOT NULL,
+Wachtwoord varchar(255) NOT NULL,
+Type varchar(14) NOT NULL,
+FOREIGN KEY (RFID) references RFID_col(RFID) ON DELETE CASCADE,
+CONSTRAINT truefalse3 CHECK (Type='Medewerker' OR Type='Klant' OR Type = 'Klant_betalend'));
+
+CREATE TABLE Medewerker
+(RFID varchar(10) PRIMARY KEY NOT NULL,
+Naam varchar(255) NOT NULL,
+Functie varchar(255),
+Rekeningnummer varchar(20) NOT NULL,
+FOREIGN KEY (RFID) references Persoon(RFID) ON DELETE CASCADE);
+
+CREATE TABLE Klant
+(RFID varchar(10) PRIMARY KEY NOT NULL,
+Reserveringsnummer number(10) NOT NULL,
+FOREIGN KEY (Reserveringsnummer) references Reservering(Reserveringsnummer) ON DELETE CASCADE,
+FOREIGN KEY (RFID) references Persoon(RFID) ON DELETE CASCADE);
+
+CREATE TABLE Klant_betalend
+(RFID varchar(10) PRIMARY KEY NOT NULL,
+Naam varchar(255) NOT NULL,
+Straat varchar(255) NOT NULL,
+Postcode varchar(255) NOT NULL,
+Woonplaats varchar(255) NOT NULL,
+Telefoon varchar(20),
+Email varchar(255),
+Rekeningnummer varchar(20) NOT NULL,
+rijbewijsnummer number(20) NOT NULL,
+Reserveringsnummer number(10) UNIQUE NOT NULL,
+Active number(1) check (Active in ( '0', '1' )),
+ActivationCode varchar(40),
+FOREIGN KEY (Reserveringsnummer) references Reservering(Reserveringsnummer) ON DELETE CASCADE,
+FOREIGN KEY (RFID) references Persoon(RFID) ON DELETE CASCADE);
+
+CREATE TABLE Map
+(Map_id number(10) NOT NULL,
+Map_naam varchar(255) NOT NULL,
+Parent_id number(10) NOT NULL,
+FOREIGN KEY (Parent_id) references Map(Map_id) ON DELETE CASCADE,
+PRIMARY KEY (Map_id),
+CONSTRAINT uc_Naam UNIQUE (Map_naam, Parent_id));
+
+CREATE TABLE Bestand
+(Bestand_id number(10) NOT NULL PRIMARY KEY,
+Map_id number(10) NOT NULL,
+Naam varchar(255) NOT NULL,
+Beschrijving varchar(255),
+Extensie varchar(255) NOT NULL,
+Grootte number (10) NOT NULL,
+RFID varchar(10) NOT NULL,
+Datum DATE DEFAULT SYSDATE NOT NULL,
+Gedownload number(10) DEFAULT 0,
+Rating number(10) DEFAULT 0,
+Pad varchar(255) UNIQUE NOT NULL,
+Imgindex number(2) NOT NULL,
+FOREIGN KEY (Map_id) references Map(Map_id) ON DELETE CASCADE,
+FOREIGN KEY (RFID) references Persoon(RFID) ON DELETE CASCADE);
+
+CREATE TABLE Opmerking
+(Opmerking_id number(10) NOT NULL,
+RFID varchar(10) NOT NULL,
+Bestand_id number(10) NOT NULL,
+Datum DATE DEFAULT SYSDATE NOT NULL,
+Opmerking_text varchar(255) NOT NULL,
+PRIMARY KEY (Opmerking_id),
+FOREIGN KEY (RFID) references Persoon(RFID) ON DELETE CASCADE,
+FOREIGN KEY (Bestand_id) references Bestand(Bestand_id) ON DELETE CASCADE);
+
+CREATE SEQUENCE seq_reservering
+START WITH 1000
+MINVALUE 1000
+INCREMENT BY 1
+NOMAXVALUE
+NOCACHE;
+
+CREATE SEQUENCE seq_map
+START WITH 10000
+MINVALUE 10000
+INCREMENT BY 1
+NOMAXVALUE
+NOCACHE;
+
+CREATE SEQUENCE seq_bestand
+START WITH 100000
+MINVALUE 100000
+INCREMENT BY 1
+NOMAXVALUE
+NOCACHE;
+
+CREATE SEQUENCE seq_opmerking
+START WITH 1000000
+MINVALUE 1000000
+INCREMENT BY 1
+NOMAXVALUE
+NOCACHE;
+
+INSERT INTO Map VALUES (0,'Root',0);
