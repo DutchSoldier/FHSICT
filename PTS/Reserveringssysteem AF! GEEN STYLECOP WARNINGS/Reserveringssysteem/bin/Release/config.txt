@@ -1,0 +1,3 @@
+//Database:
+
+DBConString = "User Id=proftaak;Password=proftaak;Data Source=//localhost:1521/xe;"

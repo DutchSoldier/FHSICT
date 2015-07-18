@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a16143cb-7bc4-4997-b8f6-d0b2dbd3301c" name="Willem@WILLEM-LAPTOP 2011-04-04 12:35:11" runUser="Willem-laptop\Willem" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="246b12c3-9259-4b94-bc30-027311afd960">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Willem_WILLEM-LAPTOP 2011-04-04 12_35_11">
+      <DeploymentItem filename="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurApplicatie\bin\Debug\MateriaalVerhuurApplicatie.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-04T12:35:11.7719357+02:00" queuing="2011-04-04T12:35:11.8239387+02:00" start="2011-04-04T12:35:11.8559405+02:00" finish="2011-04-04T12:35:12.9820049+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getAantalUitgeleendTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="131234a7-1171-1ceb-6b40-0e1d5ffd8388">
+      <Execution id="32602a6d-b05f-455e-ada9-14e551adbf77" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAantalUitgeleendTest" />
+    </UnitTest>
+    <UnitTest name="GetHoeveelheidMateriaalTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="a9d3c588-422d-0927-a5a3-0da0b0796ea3">
+      <Execution id="d3eecabf-20ae-45ba-908e-fc1ed9fe3af6" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetHoeveelheidMateriaalTest" />
+    </UnitTest>
+    <UnitTest name="getUitleningTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="c92a630c-5d45-cd0b-10c4-7cce8ac42e67">
+      <Execution id="97025615-d55a-4fdf-9e2c-9b3c599991ce" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getUitleningTest" />
+    </UnitTest>
+    <UnitTest name="getPersonenBijUitleningTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="1a2829b3-2878-37d8-31e0-4511c24c1e2f">
+      <Execution id="502d58f0-a9a6-478c-8475-3d8da76f0a32" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPersonenBijUitleningTest" />
+    </UnitTest>
+    <UnitTest name="getMateriaalTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="096730a9-c92e-56b7-9c9a-03edfe8fcdb3">
+      <Execution id="c965d02e-ec05-440c-a89f-e858d6113300" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getMateriaalTest" />
+    </UnitTest>
+    <UnitTest name="GetPersoonByReserveringsnrTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="7da62ddc-38aa-be18-9932-6d633fac785a">
+      <Execution id="0527a997-f408-4e9a-b7fe-ba4ae7254e95" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPersoonByReserveringsnrTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" executionId="c965d02e-ec05-440c-a89f-e858d6113300" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="131234a7-1171-1ceb-6b40-0e1d5ffd8388" executionId="32602a6d-b05f-455e-ada9-14e551adbf77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a2829b3-2878-37d8-31e0-4511c24c1e2f" executionId="502d58f0-a9a6-478c-8475-3d8da76f0a32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7da62ddc-38aa-be18-9932-6d633fac785a" executionId="0527a997-f408-4e9a-b7fe-ba4ae7254e95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9d3c588-422d-0927-a5a3-0da0b0796ea3" executionId="d3eecabf-20ae-45ba-908e-fc1ed9fe3af6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c92a630c-5d45-cd0b-10c4-7cce8ac42e67" executionId="97025615-d55a-4fdf-9e2c-9b3c599991ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c965d02e-ec05-440c-a89f-e858d6113300" testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" testName="getMateriaalTest" computerName="WILLEM-LAPTOP" duration="00:00:00.1409100" startTime="2011-04-04T12:35:11.8999431+02:00" endTime="2011-04-04T12:35:12.3499688+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c965d02e-ec05-440c-a89f-e858d6113300">
+    </UnitTestResult>
+    <UnitTestResult executionId="32602a6d-b05f-455e-ada9-14e551adbf77" testId="131234a7-1171-1ceb-6b40-0e1d5ffd8388" testName="getAantalUitgeleendTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0263981" startTime="2011-04-04T12:35:12.3649696+02:00" endTime="2011-04-04T12:35:12.4239730+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32602a6d-b05f-455e-ada9-14e551adbf77">
+    </UnitTestResult>
+    <UnitTestResult executionId="502d58f0-a9a6-478c-8475-3d8da76f0a32" testId="1a2829b3-2878-37d8-31e0-4511c24c1e2f" testName="getPersonenBijUitleningTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0238364" startTime="2011-04-04T12:35:12.4459743+02:00" endTime="2011-04-04T12:35:12.5669812+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="502d58f0-a9a6-478c-8475-3d8da76f0a32">
+    </UnitTestResult>
+    <UnitTestResult executionId="0527a997-f408-4e9a-b7fe-ba4ae7254e95" testId="7da62ddc-38aa-be18-9932-6d633fac785a" testName="GetPersoonByReserveringsnrTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0210586" startTime="2011-04-04T12:35:12.5699814+02:00" endTime="2011-04-04T12:35:12.6159840+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0527a997-f408-4e9a-b7fe-ba4ae7254e95">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3eecabf-20ae-45ba-908e-fc1ed9fe3af6" testId="a9d3c588-422d-0927-a5a3-0da0b0796ea3" testName="GetHoeveelheidMateriaalTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0441858" startTime="2011-04-04T12:35:12.6169841+02:00" endTime="2011-04-04T12:35:12.7019889+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3eecabf-20ae-45ba-908e-fc1ed9fe3af6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MateriaalVerhuurTests.DatabaseKoppelingTest.GetHoeveelheidMateriaalTest threw exception: 
+System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.</Message>
+          <StackTrace>    bij MateriaalVerhuurApplicatie.DatabaseKoppeling.GetHoeveelheidMateriaal(Materiaal mat) in C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurApplicatie\DatabaseKoppeling.cs:regel 305
+   bij MateriaalVerhuurTests.DatabaseKoppelingTest.GetHoeveelheidMateriaalTest() in C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurTests\DatabaseKoppelingTest.cs:regel 178
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97025615-d55a-4fdf-9e2c-9b3c599991ce" testId="c92a630c-5d45-cd0b-10c4-7cce8ac42e67" testName="getUitleningTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0576019" startTime="2011-04-04T12:35:12.7379910+02:00" endTime="2011-04-04T12:35:12.8559977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97025615-d55a-4fdf-9e2c-9b3c599991ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MateriaalVerhuurTests.DatabaseKoppelingTest.getUitleningTest threw exception: 
+System.ArgumentOutOfRangeException: De index valt buiten het bereik. Deze mag niet negatief zijn en moet kleiner zijn dan de grootte van de verzameling.
+Parameternaam: index</Message>
+          <StackTrace>    bij System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   bij System.Collections.Generic.List`1.get_Item(Int32 index)
+   bij MateriaalVerhuurTests.DatabaseKoppelingTest.getUitleningTest() in C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurTests\DatabaseKoppelingTest.cs:regel 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

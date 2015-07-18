@@ -1,0 +1,163 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pixel.client.GUI;
+
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JPanel;
+import pixel.client.Client;
+import pixel.shared.classes.Foto;
+import pixel.shared.enums.EffectType;
+
+/**
+ *
+ * @author Frank
+ */
+public class PhotoPreviewWindow extends javax.swing.JWindow {
+
+    private PhotoPreviewPanel effectpanel;
+    private JPanel panel;
+    private Thread moveThread;
+    private boolean canEdit;
+
+    /**
+     * Creates new form PhotoPreviewWindow
+     *
+     * @param panel
+     * @param foto
+     * @param type
+     */
+    @SuppressWarnings("OverridableMethodCallInConstructor")
+    public PhotoPreviewWindow(JPanel panel, Foto foto, EffectType type, boolean canEdit) {
+        this.panel = panel;
+        this.canEdit = canEdit;
+        this.setLayout(new java.awt.BorderLayout());
+        int width = foto.getFoto().getWidth();
+        int height = foto.getFoto().getHeight();
+        this.setPreferredSize(getFotoSize(width, height));
+        if (canEdit) {
+        this.effectpanel = new PhotoPreviewPanel(this, foto, type, true);
+        } else {
+            this.effectpanel = new PhotoPreviewPanel(this, foto, type, false);
+        }
+        this.getContentPane().add(this.effectpanel);
+
+        this.setVisible(true);
+        this.setLocation(Client.getFrame().getLocation().x + Client.getFrame().getWidth(), Client.getFrame().getLocation().y);
+
+        this.pack();
+        this.validate();
+
+        this.moveThread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    while (isVisible()) {
+                        Thread.sleep(1);
+                        if (getLocation().x != (Client.getFrame().getLocation().x + Client.getFrame().getWidth()) || getLocation().y != Client.getFrame().getLocation().y) {
+                            setLocation(Client.getFrame().getLocation().x + Client.getFrame().getWidth(), Client.getFrame().getLocation().y);
+                        }
+                    }
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(PhotoPreviewWindow.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+        this.moveThread.start();
+    }
+
+    /**
+     * 
+     * @param panel
+     * @param foto
+     * @param type
+     * @param canEdit
+     * @param crop 
+     */
+    @SuppressWarnings("OverridableMethodCallInConstructor")
+    public PhotoPreviewWindow(JPanel panel, Foto foto, EffectType type, boolean canEdit, Rectangle crop) {
+        this.panel = panel;
+        this.canEdit = canEdit;
+        this.setLayout(new java.awt.BorderLayout());
+        //int width = (int)crop.getWidth();
+        //int height = (int)crop.getHeight();
+        //this.setPreferredSize(getFotoSize(width, height));
+        if (canEdit) {
+        this.effectpanel = new PhotoPreviewPanel(this, foto, type, true, crop);
+        } else {
+            this.effectpanel = new PhotoPreviewPanel(this, foto, type, false, crop);
+        }
+        this.getContentPane().add(this.effectpanel);
+
+        this.setVisible(true);
+        this.setLocation(Client.getFrame().getLocation().x + Client.getFrame().getWidth(), Client.getFrame().getLocation().y);
+
+        this.pack();
+        this.validate();
+
+        this.moveThread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    while (isVisible()) {
+                        Thread.sleep(1);
+                        if (getLocation().x != (Client.getFrame().getLocation().x + Client.getFrame().getWidth()) || getLocation().y != Client.getFrame().getLocation().y) {
+                            setLocation(Client.getFrame().getLocation().x + Client.getFrame().getWidth(), Client.getFrame().getLocation().y);
+                        }
+                    }
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(PhotoPreviewWindow.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+        this.moveThread.start();
+    }
+    
+    public PhotoPreviewPanel getPanel() {
+        return effectpanel;
+    }
+
+    public Dimension getFotoSize(int width, int height) {
+        Double ratio = (double) height / (double) width;
+        Dimension size = new Dimension();
+        if (height > 400) {
+            height = 400;
+        }
+        Double tempWidth = height / ratio;
+        width = tempWidth.intValue();
+        size.setSize(width, height);
+        return size;
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        setAlwaysOnTop(true);
+        setType(java.awt.Window.Type.POPUP);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // End of variables declaration//GEN-END:variables
+}

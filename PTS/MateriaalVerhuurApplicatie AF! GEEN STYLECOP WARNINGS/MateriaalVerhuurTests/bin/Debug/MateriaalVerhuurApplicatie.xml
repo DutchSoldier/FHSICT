@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MateriaalVerhuurApplicatie</name>
+    </assembly>
+    <members>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.#cctor">
+            <summary>DatabaseKoppeling() is de constructor class.
+            <para> Hierin wordt de login + password en het adress van de oracle database ingevoerd.</para>
+            </summary>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.getUitlening(System.Int32)">
+            <summary> getUitlening geeft de uitleningen terug met gegeven reserveringsnummer.
+            <para> getUitlening returned een List met Uitleningen waarin elke uitlening met het gegeven Reserveringsnummer instaan.</para>
+            </summary>
+            <param name="ReserveringsNummer">Het reserveringsNummer van de klant.</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.getMateriaal">
+            <summary> getMateriaal haalt al het materiaal op uit de Database.
+            <para>Al het ingevoerde materiaal in de MATERIAAL tabel wordt in een lijst ingevoerd en gereturned. </para>
+            </summary>
+            <returns>List met Materiaal</returns>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.addUitlening(System.Int32,MateriaalVerhuurApplicatie.Materiaal,System.DateTime,System.DateTime,System.Windows.Forms.ListBox)">
+            <summary> addUitlening voegt een nieuwe uitlening toe.
+            <para>Er wordt een nieuwe uitlening in de Database aangemaakt mbv de gegeven parameters.</para>
+            </summary>
+            <param name="Reserveringsnummer">Het reserveringsnummer van de klant.</param>
+            <param name="mat">Het materiaal dat de klant wil lenen.</param>
+            <param name="Uitgeleend">De datum waarop de uitlening van start gaat.</param>
+            <param name="Ingeleverd">De datum waarop het materiaal uiterlijk teruggebracht moet worden.</param>
+            <param name="lBox">De listbox met beschikbare materiaal dat al door de klant gehuurd wordt (Wordt gebruikt om te kijken of er een INSERT of UPDATE SQL commando uitgevoerd moet worden.</param>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.removeUitlening(MateriaalVerhuurApplicatie.Uitlening,System.Int32)">
+            <summary>
+            RemoveUitlening verwijdert een uitlening uit de database.
+            </summary>
+            <param name="uitlening">De uitlening van de klant.</param>
+            <param name="Reserveringsnummer">Het reserveringsnummer van de klant.</param>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.getAantalUitgeleend">
+            <summary>
+            getAantalUitgeleend returned een List met leningen.
+            <para>Deze methode voegt uitlening objecten toe in de list. In deze list kan uitgelezen worden welke materialen er op het moment uitgeleend worden.</para>
+            </summary>
+            <returns>List met op het moment uitgeleend materiaal.</returns>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.getPersonenBijUitlening(System.String)">
+            <summary>
+            getPersonenBijUitlening returned een List met uitleninging waarin reserveringsnummers staan met bijbehorend gehuurd materiaal.
+            </summary>
+            <param name="Type">Het type (=naam) materiaal.</param>
+            <returns>Een list met uitleningen(=reserveringsnummers).</returns>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.RemoveGeheleUitlening(System.Int32)">
+            <summary>
+            Deze methode verwijdert een gehele reservering uit het systeem.
+            </summary>
+            <param name="Reserveringsnummer">Het reserveringsnummer van de klant.</param>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.GetHoeveelheidMateriaal(MateriaalVerhuurApplicatie.Materiaal)">
+            <summary>
+            Deze methode kijkt hoeveel materiaal er nog over is.
+            <para>Het beschikbaar materiaal wordt uitgelezen vanaf de DB, het uitgeleend materiaal wordt uitgelezen uit de DB. Hierdoor kan lokaal het aantal materiaal bijgehouden worden zonder dit in de Database aan te passen.</para>
+            </summary>
+            <param name="mat">Het materiaal.</param>
+            <returns>Een int; de hoeveelheid Materiaal dat er nog is.</returns>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.DatabaseKoppeling.GetPersoonByReserveringsnr(System.Int32)">
+            <summary>
+            Deze methode kijkt wat de naam van de persoon is bij gegeven reserveringsnummer.
+            </summary>
+            <param name="Reserveringsnummer">Het reserveringsnummer van de klant.</param>
+            <returns>De naam die bij dit reserveringsnummer hoort.</returns>
+        </member>
+        <member name="T:MateriaalVerhuurApplicatie.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MateriaalVerhuurApplicatie.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MateriaalVerhuurApplicatie.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:MateriaalVerhuurApplicatie.VerhuurApplicatie.materialen">
+            <summary>
+            Hier worden alle gebruikte lists en een tooltip aangemaakt die later in deze klasse worden gebruikt.
+            </summary>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.VerhuurApplicatie.View_HelpRequested(System.Object,System.Windows.Forms.HelpEventArgs)">
+            <summary>
+            Dit is de eventhandler voor het functioneren van de tooltips.
+            </summary>
+            <param name="sender">Het UI element waarover help wordt opgevraagt.</param>
+            <param name="hlpevent"></param>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.VerhuurApplicatie.RefreshListboxes">
+            <summary>
+            Deze methode zorgt ervoor dat alle Listboxes worden leeggemaakt, de waardes worden geupdate en de listboxes weer opgevuld worden met de correcte waardes.
+            </summary>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.VerhuurApplicatie.VerhuurApplicatie_Load(System.Object,System.EventArgs)">
+            <summary>
+            Geef alle HelpRequested methodes van de UI elementen een nieuw HelpEventHandler. Deze eventhandler is eerder in de code gemaakt.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:MateriaalVerhuurApplicatie.VerhuurApplicatie.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.VerhuurApplicatie.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.VerhuurApplicatie.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MateriaalVerhuurApplicatie.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

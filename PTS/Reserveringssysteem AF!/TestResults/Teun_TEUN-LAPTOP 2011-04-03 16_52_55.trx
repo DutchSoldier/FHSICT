@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ec60a261-b958-4b50-86f2-fda597419d64" name="Teun@TEUN-LAPTOP 2011-04-03 16:52:55" runUser="teun-laptop\Teun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b68a593-5016-4f07-a027-9915f9ae16af">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Teun_TEUN-LAPTOP 2011-04-03 16_52_55">
+      <DeploymentItem filename="C:\Users\Teun\Desktop\Reserveringssysteem\Reserveringssysteem\bin\Debug\Reserveringssysteem.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-03T16:52:55.6389379+02:00" queuing="2011-04-03T16:52:56.0879635+02:00" start="2011-04-03T16:52:56.1909694+02:00" finish="2011-04-03T16:52:57.2980328+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TEUN-LAPTOP" outcome="Warning" timestamp="2011-04-03T16:52:55.6939410+02:00">
+        <Text>Deployment is currently disabled. The deployment item 'Reserveringssysteem.exe' on test 'Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="btnBevestig_ClickTest" storage="c:\users\teun\desktop\reserveringssysteem\reserveringsapplicatie_testcases\bin\debug\reserveringsapplicatie_testcases.dll" id="3d76b8bc-2ee4-afed-b218-acf153587cb5">
+      <DeploymentItems>
+        <DeploymentItem filename="Reserveringssysteem.exe" />
+      </DeploymentItems>
+      <Execution id="8fa8e6de-6eeb-49c6-acbc-fce913c7c92e" />
+      <TestMethod codeBase="C:/Users/Teun/Desktop/Reserveringssysteem/Reserveringsapplicatie_TestCases/bin/Debug/Reserveringsapplicatie_TestCases.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Reserveringsapplicatie_TestCases.ReserveringFormTest, Reserveringsapplicatie_TestCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnBevestig_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d76b8bc-2ee4-afed-b218-acf153587cb5" executionId="8fa8e6de-6eeb-49c6-acbc-fce913c7c92e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8fa8e6de-6eeb-49c6-acbc-fce913c7c92e" testId="3d76b8bc-2ee4-afed-b218-acf153587cb5" testName="btnBevestig_ClickTest" computerName="TEUN-LAPTOP" duration="00:00:00.4999031" startTime="2011-04-03T16:52:56.2199711+02:00" endTime="2011-04-03T16:52:57.1880265+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fa8e6de-6eeb-49c6-acbc-fce913c7c92e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest threw exception: 
+Oracle.DataAccess.Client.OracleException: ORA-00001: Schending van UNIQUE-beperking (TEUN.PLAATS_UNIEK).</Message>
+          <StackTrace>   bij Reserveringssysteem.DatabaseKoppeling_Accessor.AddReserveringPlaats(Int32 reserveringsnummer, String plaatsnummer)
+   bij Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest() in C:\Users\Teun\Desktop\Reserveringssysteem\Reserveringsapplicatie_TestCases\ReserveringFormTest.cs:regel 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

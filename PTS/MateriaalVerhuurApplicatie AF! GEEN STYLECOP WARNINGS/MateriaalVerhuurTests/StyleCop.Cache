@@ -1,0 +1,24 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="-822771145">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 15:27:00</timestamp>
+      <milliseconds>639</milliseconds>
+    </settings>
+    <timestamp>06/01/2012 12:05:34</timestamp>
+    <milliseconds>831</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DatabaseKoppelingTest.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/25/2012 15:27:00</timestamp>
+      <milliseconds>639</milliseconds>
+    </settings>
+    <timestamp>06/01/2012 12:01:45</timestamp>
+    <milliseconds>978</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

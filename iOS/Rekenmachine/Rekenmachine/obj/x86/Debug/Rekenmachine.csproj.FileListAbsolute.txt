@@ -1,9 +1,0 @@
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\bin\Debug\Rekenmachine.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\bin\Debug\Rekenmachine.pdb
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.Properties.Resources.resources
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\GenerateResource.read.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\GenerateResource.write.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.pdb
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.Form1.resources

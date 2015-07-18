@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ab5087d7-ba70-45fe-8419-721622c171a2" name="Willem@WILLEM-LAPTOP 2011-04-04 12:08:59" runUser="Willem-laptop\Willem" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="246b12c3-9259-4b94-bc30-027311afd960">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Willem_WILLEM-LAPTOP 2011-04-04 12_08_59">
+      <DeploymentItem filename="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurApplicatie\bin\Debug\MateriaalVerhuurApplicatie.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-04T12:08:59.0979839+02:00" queuing="2011-04-04T12:09:00.6700738+02:00" start="2011-04-04T12:09:00.8160822+02:00" finish="2011-04-04T12:09:06.1403867+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WILLEM-LAPTOP" outcome="Error" timestamp="2011-04-04T12:09:06.1373866+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getMateriaalTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="096730a9-c92e-56b7-9c9a-03edfe8fcdb3">
+      <Execution id="95476db4-005e-4cea-abb4-0dc32d50dc96" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getMateriaalTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" executionId="95476db4-005e-4cea-abb4-0dc32d50dc96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95476db4-005e-4cea-abb4-0dc32d50dc96" testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" testName="getMateriaalTest" computerName="WILLEM-LAPTOP" duration="00:00:05.2573007" startTime="2011-04-04T12:09:00.8830860+02:00" endTime="2011-04-04T12:09:06.1403867+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95476db4-005e-4cea-abb4-0dc32d50dc96">
+    </UnitTestResult>
+  </Results>
+</TestRun>

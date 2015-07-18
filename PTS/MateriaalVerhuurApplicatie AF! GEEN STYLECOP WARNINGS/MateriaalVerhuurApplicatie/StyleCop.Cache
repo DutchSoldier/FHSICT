@@ -1,0 +1,93 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="1528274935">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="-1205335219">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-1304252188">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="Materiaal.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>26</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>494</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>494</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>494</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DatabaseKoppeling.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 13:30:14</timestamp>
+    <milliseconds>797</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Uitlening.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>26</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Settings.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>494</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VerhuurApplicatie.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>10</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VerhuurApplicatie.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:09</timestamp>
+      <milliseconds>712</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:12</timestamp>
+    <milliseconds>10</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

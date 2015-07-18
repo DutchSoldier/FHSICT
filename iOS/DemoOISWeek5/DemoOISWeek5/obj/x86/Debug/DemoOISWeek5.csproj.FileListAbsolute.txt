@@ -1,9 +1,0 @@
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\bin\Debug\DemoOISWeek5.exe
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\bin\Debug\DemoOISWeek5.pdb
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\DemoOISWeek5.DobbelenForm.resources
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\DemoOISWeek5.Properties.Resources.resources
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\GenerateResource.read.1.tlog
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\GenerateResource.write.1.tlog
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\DemoOISWeek5.exe
-D:\Projects\Demo\DemoOISWeek5\DemoOISWeek5\DemoOISWeek5\obj\x86\Debug\DemoOISWeek5.pdb

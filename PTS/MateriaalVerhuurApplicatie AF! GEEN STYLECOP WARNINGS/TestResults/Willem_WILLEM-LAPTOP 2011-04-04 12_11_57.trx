@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ced8aa24-7d5a-4a03-b490-96e6b8c61f0e" name="Willem@WILLEM-LAPTOP 2011-04-04 12:11:57" runUser="Willem-laptop\Willem" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="246b12c3-9259-4b94-bc30-027311afd960">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Willem_WILLEM-LAPTOP 2011-04-04 12_11_57">
+      <DeploymentItem filename="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurApplicatie\bin\Debug\MateriaalVerhuurApplicatie.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-04T12:11:57.0581627+02:00" queuing="2011-04-04T12:11:57.3531795+02:00" start="2011-04-04T12:11:57.4151831+02:00" finish="2011-04-04T12:12:02.8144919+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getMateriaalTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="096730a9-c92e-56b7-9c9a-03edfe8fcdb3">
+      <Execution id="d52d6b0c-569a-47e0-8268-f12611d358ad" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getMateriaalTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" executionId="d52d6b0c-569a-47e0-8268-f12611d358ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d52d6b0c-569a-47e0-8268-f12611d358ad" testId="096730a9-c92e-56b7-9c9a-03edfe8fcdb3" testName="getMateriaalTest" computerName="WILLEM-LAPTOP" duration="00:00:04.8280695" startTime="2011-04-04T12:11:57.4651859+02:00" endTime="2011-04-04T12:12:02.7274869+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d52d6b0c-569a-47e0-8268-f12611d358ad">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;MateriaalVerhuurApplicatie.Materiaal&gt;. Actual:&lt;MateriaalVerhuurApplicatie.Materiaal&gt;. </Message>
+          <StackTrace>   bij MateriaalVerhuurTests.DatabaseKoppelingTest.getMateriaalTest() in C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurTests\DatabaseKoppelingTest.cs:regel 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

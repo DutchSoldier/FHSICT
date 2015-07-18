@@ -1,9 +1,0 @@
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\bin\Debug\Notepad Light.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\bin\Debug\Notepad Light.pdb
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\Notepad_Light.Form1.resources
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\Notepad_Light.Properties.Resources.resources
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\GenerateResource.read.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\GenerateResource.write.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\Notepad Light.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\Notepad Light\obj\x86\Debug\Notepad Light.pdb

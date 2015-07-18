@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="39131d8e-8555-4ff7-92ad-dd805c18a5d8" name="Willem@WILLEM-LAPTOP 2011-04-04 12:25:47" runUser="Willem-laptop\Willem" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="246b12c3-9259-4b94-bc30-027311afd960">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Willem_WILLEM-LAPTOP 2011-04-04 12_25_47">
+      <DeploymentItem filename="C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurApplicatie\bin\Debug\MateriaalVerhuurApplicatie.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-04T12:25:47.6526700+02:00" queuing="2011-04-04T12:25:47.6816716+02:00" start="2011-04-04T12:25:47.6996726+02:00" finish="2011-04-04T12:25:48.3117076+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getAantalUitgeleendTest" storage="c:\users\willem\documents\my dropbox\s22 groep c\software engineering\project\materiaalverhuurapplicatie\materiaalverhuurtests\bin\debug\materiaalverhuurtests.dll" id="131234a7-1171-1ceb-6b40-0e1d5ffd8388">
+      <Execution id="d38a7aeb-6e80-40e6-96d3-f662536953a9" />
+      <TestMethod codeBase="C:/Users/Willem/Documents/My Dropbox/S22 Groep C/Software Engineering/Project/MateriaalVerhuurApplicatie/MateriaalVerhuurTests/bin/Debug/MateriaalVerhuurTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MateriaalVerhuurTests.DatabaseKoppelingTest, MateriaalVerhuurTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAantalUitgeleendTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="131234a7-1171-1ceb-6b40-0e1d5ffd8388" executionId="d38a7aeb-6e80-40e6-96d3-f662536953a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d38a7aeb-6e80-40e6-96d3-f662536953a9" testId="131234a7-1171-1ceb-6b40-0e1d5ffd8388" testName="getAantalUitgeleendTest" computerName="WILLEM-LAPTOP" duration="00:00:00.0782005" startTime="2011-04-04T12:25:47.7156736+02:00" endTime="2011-04-04T12:25:48.1907007+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d38a7aeb-6e80-40e6-96d3-f662536953a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MateriaalVerhuurTests.DatabaseKoppelingTest.getAantalUitgeleendTest threw exception: 
+System.InvalidOperationException: Kan twee elementen in de matrix niet vergelijken. ---&gt; System.ArgumentException: Ten minste één object moet IComparable implementeren.</Message>
+          <StackTrace>    bij System.Collections.Comparer.Compare(Object a, Object b)
+   bij System.Collections.Generic.ObjectComparer`1.Compare(T x, T y)
+   bij System.Collections.Generic.ArraySortHelper`1.SwapIfGreaterWithItems(T[] keys, IComparer`1 comparer, Int32 a, Int32 b)
+   bij System.Collections.Generic.ArraySortHelper`1.QuickSort(T[] keys, Int32 left, Int32 right, IComparer`1 comparer)
+   bij System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+ --- End of inner exception stack trace ---
+    bij System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+   bij System.Array.Sort[T](T[] array, Int32 index, Int32 length, IComparer`1 comparer)
+   bij System.Collections.Generic.List`1.Sort(Int32 index, Int32 count, IComparer`1 comparer)
+   bij System.Collections.Generic.List`1.Sort()
+   bij MateriaalVerhuurTests.DatabaseKoppelingTest.getAantalUitgeleendTest() in C:\Users\Willem\Documents\My Dropbox\S22 Groep C\Software Engineering\Project\MateriaalVerhuurApplicatie\MateriaalVerhuurTests\DatabaseKoppelingTest.cs:regel 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

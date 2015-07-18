@@ -1,0 +1,189 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="1069659328">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="825439420">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-58136958">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-574000905">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="-166666677">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="BetalendeKlant.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>855</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Kampeerplek.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>298</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Klant.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:42</timestamp>
+    <milliseconds>89</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DatabaseKoppeling.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:26:18</timestamp>
+    <milliseconds>703</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Persoon.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:42</timestamp>
+    <milliseconds>89</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Reservering.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>259</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>996</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReserveringView.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SendMail.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>292</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SHA1Hashing.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>294</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MenuForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MenuForm.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>259</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Settings.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="NieuweReserveringForm.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>290</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="NieuweReserveringForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:39</timestamp>
+    <milliseconds>259</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReserveringForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>964</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReserveringForm.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>964</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

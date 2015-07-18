@@ -1,9 +1,0 @@
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\bin\Debug\To do lijst.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\bin\Debug\To do lijst.pdb
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\To_do_lijst.Calculator.resources
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\To_do_lijst.Properties.Resources.resources
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\GenerateResource.read.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\GenerateResource.write.1.tlog
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\To do lijst.exe
-c:\users\remi\documents\visual studio 2010\Projects\Rekenmachine\To do lijst\obj\x86\Debug\To do lijst.pdb

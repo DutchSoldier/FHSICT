@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fdf17d90-8368-4541-bd4f-de7b0acdadf1" name="Teun@TEUN-LAPTOP 2011-04-03 16:11:16" runUser="teun-laptop\Teun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b68a593-5016-4f07-a027-9915f9ae16af">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Teun_TEUN-LAPTOP 2011-04-03 16_11_16">
+      <DeploymentItem filename="C:\Users\Teun\Desktop\Reserveringssysteem\Reserveringssysteem\bin\Debug\Reserveringssysteem.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-03T16:11:16.6390032+02:00" queuing="2011-04-03T16:11:18.1600902+02:00" start="2011-04-03T16:11:18.4211052+02:00" finish="2011-04-03T16:11:19.5641706+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TEUN-LAPTOP" outcome="Warning" timestamp="2011-04-03T16:11:17.1940350+02:00">
+        <Text>Deployment is currently disabled. The deployment item 'Reserveringssysteem.exe' on test 'Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="btnBevestig_ClickTest" storage="c:\users\teun\desktop\reserveringssysteem\reserveringsapplicatie_testcases\bin\debug\reserveringsapplicatie_testcases.dll" id="3d76b8bc-2ee4-afed-b218-acf153587cb5">
+      <DeploymentItems>
+        <DeploymentItem filename="Reserveringssysteem.exe" />
+      </DeploymentItems>
+      <Execution id="96bc9bed-d3d0-4805-bcd9-94473340f41a" />
+      <TestMethod codeBase="C:/Users/Teun/Desktop/Reserveringssysteem/Reserveringsapplicatie_TestCases/bin/Debug/Reserveringsapplicatie_TestCases.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Reserveringsapplicatie_TestCases.ReserveringFormTest, Reserveringsapplicatie_TestCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnBevestig_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d76b8bc-2ee4-afed-b218-acf153587cb5" executionId="96bc9bed-d3d0-4805-bcd9-94473340f41a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96bc9bed-d3d0-4805-bcd9-94473340f41a" testId="3d76b8bc-2ee4-afed-b218-acf153587cb5" testName="btnBevestig_ClickTest" computerName="TEUN-LAPTOP" duration="00:00:00.5297040" startTime="2011-04-03T16:11:18.4561072+02:00" endTime="2011-04-03T16:11:19.4671650+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96bc9bed-d3d0-4805-bcd9-94473340f41a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest threw exception: 
+Oracle.DataAccess.Client.OracleException: ORA-02289: Reeks bestaat niet.</Message>
+          <StackTrace>   bij Reserveringssysteem.DatabaseKoppeling_Accessor.GetNieuwReserveringsnummer()
+   bij Reserveringsapplicatie_TestCases.ReserveringFormTest.btnBevestig_ClickTest() in C:\Users\Teun\Desktop\Reserveringssysteem\Reserveringsapplicatie_TestCases\ReserveringFormTest.cs:regel 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

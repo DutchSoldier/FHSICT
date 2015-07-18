@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7E6B03A-361A-41DB-AC15-B354F8E709F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Filesharingapplicatie</RootNamespace>
+    <AssemblyName>Filesharingapplicatie</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Oracle.DataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCommentform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCommentform.Designer.cs">
+      <DependentUpon>AddCommentform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addfileform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addfileform.Designer.cs">
+      <DependentUpon>Addfileform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addmapform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addmapform.Designer.cs">
+      <DependentUpon>Addmapform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categorie.cs" />
+    <Compile Include="DatabaseKoppeling.cs" />
+    <Compile Include="enum_type_gebruiker.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="fileComparer_grootte.cs" />
+    <Compile Include="fileComparer_naam.cs" />
+    <Compile Include="fileComparer_rating.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="Filesharingform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filesharingform.Designer.cs">
+      <DependentUpon>Filesharingform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inlogform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inlogform.Designer.cs">
+      <DependentUpon>Inlogform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loadingform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loadingform.Designer.cs">
+      <DependentUpon>Loadingform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opmerking.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schoonmaakform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schoonmaakform.Designer.cs">
+      <DependentUpon>Schoonmaakform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerKoppeling.cs" />
+    <Compile Include="SHA1Hashing.cs" />
+    <EmbeddedResource Include="AddCommentform.resx">
+      <DependentUpon>AddCommentform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addfileform.resx">
+      <DependentUpon>Addfileform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addmapform.resx">
+      <DependentUpon>Addmapform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filesharingform.resx">
+      <DependentUpon>Filesharingform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inlogform.resx">
+      <DependentUpon>Inlogform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loadingform.resx">
+      <DependentUpon>Loadingform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Schoonmaakform.resx">
+      <DependentUpon>Schoonmaakform.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\applications-graphics.png" />
+    <Content Include="Resources\applications-multimedia.png" />
+    <Content Include="Resources\applications-system.png" />
+    <Content Include="Resources\ascii.png" />
+    <Content Include="Resources\dialog-question.png" />
+    <Content Include="Resources\document-open.png" />
+    <Content Include="Resources\folder_home.png" />
+    <Content Include="Resources\gnome-dev-cdrom-audio.png" />
+    <Content Include="Resources\x-office-document.png" />
+    <Content Include="Resources\xchat.png" />
+    <Content Include="Resources\zip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-password.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

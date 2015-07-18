@@ -1,0 +1,36 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="1878454322">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="161152384">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="276505186">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="1093120084">
+    <configuration>TRACE</configuration>
+  </project>
+  <project key="1613891662">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>762</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReserveringFormTest.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/06/2012 12:02:34</timestamp>
+      <milliseconds>481</milliseconds>
+    </settings>
+    <timestamp>06/06/2012 12:02:37</timestamp>
+    <milliseconds>13</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

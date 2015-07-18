@@ -1,5 +1,0 @@
-C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\bin\Debug\OIS_kennis_tester.dll
-C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\bin\Debug\OIS_kennis_tester.pdb
-C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\obj\Debug\OIS_kennis_tester.dll
-C:\Users\Remi\Downloads\OIS_kennis_project\OIS_kennis_project\OIS_kennis_tester\obj\Debug\OIS_kennis_tester.pdb

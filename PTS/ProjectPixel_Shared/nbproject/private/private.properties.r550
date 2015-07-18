@@ -1,0 +1,10 @@
+compile.on.save=true
+<<<<<<< .mine
+<<<<<<< .mine
+user.properties.file=C:\\Users\\Bas\\AppData\\Roaming\\NetBeans\\7.2\\build.properties
+=======
+user.properties.file=C:\\Users\\Bas\\AppData\\Roaming\\NetBeans\\7.2\\build.properties
+>>>>>>> .r32
+=======
+user.properties.file=C:\\Users\\Frank\\AppData\\Roaming\\NetBeans\\7.3\\build.properties
+>>>>>>> .r54
