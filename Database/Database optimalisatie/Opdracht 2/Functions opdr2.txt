@@ -1,0 +1,115 @@
+String:
+
+create or replace function RandomString(p_Characters varchar2, p_length number)
+return varchar2
+is
+l_res varchar2(256);
+begin
+  select substr(listagg(substr(p_Characters, level, 1)) within group(order by dbms_random.value), 1, p_length)
+  into l_res
+  from dual
+  connect by level <= length(p_Characters);
+  return l_res;
+end;
+
+Query:
+
+select randomstring('1234567abcdefg', 10) res 
+from dual 
+connect by level <= 10;
+
+
+
+Number:
+
+create or replace function RandomNumber(range_min number, range_max number)
+return number
+is
+res number;
+begin
+  select dbms_random.value(range_min, range_max) num
+  into res
+  from dual
+  return res;
+end;
+
+Query:
+
+select randomnumber(1, 5) res 
+from dual;
+
+
+
+Timestamp:
+
+create or replace
+function RandomTimestamp
+return timestamp as 
+vDay number;
+vMonth number;
+vYear number;
+vHour number;
+vMinutes number;
+vSeconds number;
+nu timestamp;
+begin
+  select dbms_random.value(1900, 2010) into vYear from dual;
+  select dbms_random.value(1, 12) into vMonth from dual;
+  select dbms_random.value(1, 30) into vDay from dual;
+  select dbms_random.value(1, 12) into vHour from dual;
+  select dbms_random.value(0, 59) into vMinutes from dual;
+  select dbms_random.value(0, 59) into vSeconds from dual;
+  nu := to_timestamp(to_char(vYear, '9999') || '-' || to_char(vMonth, '99') || '-' || to_char(vDay, '99') || to_char(vHour, '99') || ':' || to_char(vMinutes, '99') || ':' || to_char(vSeconds, '99'), 'yyyy-mm-dd hh:mi:ss');
+  return nu;
+end;
+
+Query:
+
+select randomtimestamp() from dual
+
+
+
+
+PROCEDURE:
+
+create or replace
+PROCEDURE ADDTESTDATA 
+(tableName varchar2, 
+numberOfRows number)
+IS
+randomData varchar2(5000);
+counter number;
+vr_insert varchar2(5100);
+vr_randomString varchar2(100);
+vr_randomNumber number;
+vr_randomTimestamp timestamp;
+BEGIN
+  for counter in 0..numberOfRows
+  loop
+    for r in (select data_type
+               from user_tab_columns 
+               where table_name = upper(tableName)
+               order by column_id)
+      loop
+        if (randomData is not null) then
+            randomData := randomData || ', ';
+        end if;
+        if (r.data_type = 'NUMBER') then
+          select randomNumber(0, 100000) into vr_randomNumber from dual;
+          randomData := randomData || vr_randomNumber;
+        elsif (r.data_type = 'VARCHAR2') then
+          select randomString('abcdefghijklmnopqrstuvwxyz0123456789', 15) into vr_randomString from dual;
+          randomData := randomData || '''' || vr_randomString || '''';
+        elsif (r.data_type = 'TIMESTAMP') then
+          select randomTimestamp() into vr_randomTimestamp from dual;
+          randomData := randomData || vr_randomTimestamp;
+        else
+          randomData := randomData || NULL;
+        end if;
+      end loop;    
+      vr_insert := 'insert into ' || tableName || ' values(' || randomData || ')';
+      execute immediate vr_insert;
+      randomData := '';
+      commit;
+    end loop;
+END ADDTESTDATA;

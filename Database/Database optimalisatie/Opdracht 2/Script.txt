@@ -1,0 +1,68 @@
+DROP TABLE GerelateerdNieuws;
+DROP TABLE CategorieAbonnement;
+DROP TABLE Reactie;
+DROP TABLE Nieuwsbericht;
+DROP TABLE Auteur;
+DROP TABLE Categorie;
+DROP TABLE MailAbonnee;
+
+CREATE TABLE MailAbonnee
+(
+	id			NUMBER(10,0) PRIMARY KEY,
+	voornaam		VARCHAR2(64),
+	achternaam		VARCHAR2(255),
+	email			VARCHAR2(128),
+	abonnementType 		VARCHAR2(128),
+	laatstVerzondenMail	TIMESTAMP
+);
+
+CREATE TABLE Categorie
+(	
+	naam			VARCHAR2(64) PRIMARY KEY,
+	omschrijving		VARCHAR2(2048)
+);
+
+CREATE TABLE Auteur
+(	
+	id			NUMBER(10,0) PRIMARY KEY,
+	voornaam		VARCHAR2(64),
+	achternaam		VARCHAR2(255),
+	persbureau		VARCHAR2(255),
+	details			VARCHAR2(2048)
+);
+
+CREATE TABLE Nieuwsbericht
+(	
+	id			NUMBER(10,0) PRIMARY KEY,
+	geplaatstOp		TIMESTAMP,
+	berichtKop		VARCHAR2(255),
+	bericht			VARCHAR2(2048),
+	bronLink		VARCHAR2(255),
+	categorieNaam		VARCHAR2(64) REFERENCES Categorie(naam),
+	auteurId		NUMBER(10,0) REFERENCES Auteur(id)
+);
+
+CREATE TABLE Reactie
+(	
+	id			NUMBER(10,0) PRIMARY KEY,
+	naam			VARCHAR2(64),
+	geplaatstOp		TIMESTAMP,
+	ipAdres			VARCHAR2(39),
+	reactieTekst		VARCHAR2(1024),
+	zichtbaar		NUMBER(1),
+	nieuwsberichtId		NUMBER(10,0) REFERENCES Nieuwsbericht(id)
+);
+
+CREATE TABLE CategorieAbonnement
+(	
+	mailAbonneeId		NUMBER(10,0) REFERENCES MailAbonnee(id),
+	categorieNaam		VARCHAR2(64) REFERENCES Categorie(naam),
+	PRIMARY KEY (mailAbonneeId,categorieNaam)
+);
+
+CREATE TABLE GerelateerdNieuws
+(	
+	nieuwsberichtId			NUMBER(10,0) REFERENCES Nieuwsbericht(id),
+	gerelateerdNieuwsberichtId	NUMBER(10,0) REFERENCES Nieuwsbericht(id),
+	PRIMARY KEY (nieuwsberichtId,gerelateerdNieuwsberichtId)
+);

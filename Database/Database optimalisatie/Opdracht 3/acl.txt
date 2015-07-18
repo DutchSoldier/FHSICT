@@ -1,0 +1,28 @@
+BEGIN
+  DBMS_NETWORK_ACL_ADMIN.drop_acl(acl => 'www.xml');
+
+  DBMS_NETWORK_ACL_ADMIN.CREATE_ACL(acl         => 'www.xml',
+                                    description => 'WS ACL',
+                                    principal   => 'DBO_BAS_REMI',
+                                    is_grant    => true,
+                                    privilege   => 'connect');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ADD_PRIVILEGE(acl       => 'www.xml',
+                                       principal => 'DBO_BAS_REMI',
+                                       is_grant  => true,
+                                       privilege => 'resolve');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ASSIGN_ACL(acl  => 'www.xml',
+                                    host => 'dev.markitondemand.com',
+                                    lower_port => '80',
+                                    upper_port => '80');
+END;
+/
+COMMIT
+/
+
+
+
+
+
+
